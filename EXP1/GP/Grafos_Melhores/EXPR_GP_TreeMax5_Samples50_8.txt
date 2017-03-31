@@ -1,0 +1,1 @@
+add(sin(sub(sub(2, 1), cos(y))), sin(sub(cos(x), neg(2))))

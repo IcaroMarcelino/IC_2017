@@ -1,0 +1,1 @@
+add(sin(sub(cos(mul(1, x)), neg(2))), sin(sub(cos(neg(y)), neg(2))))

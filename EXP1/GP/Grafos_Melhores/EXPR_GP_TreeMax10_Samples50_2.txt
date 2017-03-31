@@ -1,0 +1,1 @@
+add(cos(div(cos(div(sin(2), sub(y, cos(x)))), sub(y, cos(2)))), sin(sub(cos(sin(div(cos(neg(2)), sub(y, sin(add(2, x)))))), cos(neg(x)))))

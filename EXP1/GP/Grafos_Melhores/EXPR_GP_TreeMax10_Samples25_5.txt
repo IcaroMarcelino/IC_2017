@@ -1,0 +1,1 @@
+add(cos(div(cos(sin(mul(sub(x, sin(x)), div(cos(1), x)))), y)), cos(div(cos(div(sub(x, cos(1)), 2)), x)))

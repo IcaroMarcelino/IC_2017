@@ -1,0 +1,1 @@
+add(sin(sub(sin(sub(2, cos(cos(cos(x))))), sin(cos(mul(neg(x), sin(2)))))), sin(sub(sin(sub(2, cos(cos(sin(sub(sin(cos(sub(2, cos(sin(sub(neg(2), sin(sub(sin(sub(2, cos(cos(cos(x))))), cos(cos(neg(neg(y)))))))))))), cos(neg(neg(neg(y)))))))))), cos(y))))
