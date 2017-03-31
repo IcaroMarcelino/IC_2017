@@ -192,7 +192,7 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 
 	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(toolbox.evaluate(hof[0])[0]) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
-	info1 = open("INFO_GP_EXP1.csv", 'a')
+	info1 = open("INFO_GP_EXP2.csv", 'a')
 	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(toolbox.evaluate(hof[0])[0]) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	nodes, edges, labels = gp.graph(hof[0])
@@ -217,13 +217,13 @@ if __name__ == "__main__":
 	train_percent = 0.7
 
 	tam_max_tree = [5,10,17,34,68,90]
-	step_samples = [(4, 10), (4, 20), (4,30), (4,50), (4, 100)]
+	step_samples = [(1, 10), (1, 20), (1,30), (1,50), (1, 100)]
 
 	for tam_max in tam_max_tree:
 		for step, scale in step_samples:
 			for n in list(range(0,10)):
-				lim_inf = -5
-				lim_sup = +5
+				lim_inf = -50
+				lim_sup = +50
 
 				px = [x*(1/scale) for x in list(range(lim_inf*scale, lim_sup*scale, step))]
 				px = np.random.permutation(px)

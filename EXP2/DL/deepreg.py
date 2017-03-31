@@ -9,10 +9,10 @@ import numpy as np
 import csv
 
 import time
-ran = [[[10,10,10,10,10,10,10], range(0,10)], [[10,10,10,10,10], range(10,20)], [[10,10,10], range(20,30)], [[10], range(30,40)], [[100000], range(40,50)]]
-step_samples = [(4, 10), (4, 20), (4,30), (4,50), (4, 100)]
-lim_inf = -5
-lim_sup = +5
+ran = [[[10,10,10,10,10,10,10,10,10], range(0,10)], [[10,10,10,10,10,10,10], range(10,20)], [[10,10,10,10,10], range(20,30)], [[10,10,10], range(30,40)], [[10], range(40,50)]]
+step_samples = [(1, 10), (1, 20), (1,30), (1,50), (1, 100)]
+lim_inf = -50
+lim_sup = +50
 
 arq = 0
 for param in ran:
@@ -31,8 +31,11 @@ for param in ran:
 			XY_f1 = list(zip(X_f1, Y_f1))
 
 			############### Functions for regression #####################
-			def f1(x,y):
-				return (1/(1 + x**(-4))) + (1/(1 + y**(-4)))
+			# def f1(x,y):
+			# 	return (1/(1 + x**(-4))) + (1/(1 + y**(-4)))
+
+			def f(x,y):
+				return 2 - 2.1*math.sin(1.3*x)*math.cos(9.8*y)
 
 			XY_f1 = np.array(XY_f1, dtype = 'float32')
 			F1_XY = np.array([f1(x_,y_) for x_,y_ in XY_f1],
@@ -69,13 +72,13 @@ for param in ran:
 
 			end = time.time()
 			print('MSE: {0:f}'.format(score))
-			info = open("INFO_DL_EXP1.csv", 'a')
+			info = open("INFO_DL_EXP2.csv", 'a')
 			info.write(str(arq +1) + ',' + str(len(XY_f1)) + ',' + str(i) + ',' + '{0:f}'.format(score) + ',' + str(end-start) + '\n')
 
 			tabela = list(zip(X_f1, Y_f1, result, list(regressor.predict(x = xv, as_iterable=True))))
 			tabela = [('x', 'y', "f(x,y)", "f*(x,y)")] + tabela
 
-			myfile = open("Saidas/SAIDA_EXP1_DL_ARQ" + str(arq +1) + "_Samples" + str(len(XY_f1)) + "_EXEC" + str(i) + ".csv", 'w')
+			myfile = open("Saidas/SAIDA_EXP2_DL_ARQ" + str(arq +1) + "_Samples" + str(len(XY_f1)) + "_EXEC" + str(i) + ".csv", 'w')
 			wr = csv.writer(myfile)
 
 			for row in tabela:
