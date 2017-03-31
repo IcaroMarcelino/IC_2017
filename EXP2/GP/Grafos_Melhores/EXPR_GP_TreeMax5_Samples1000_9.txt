@@ -1,0 +1,1 @@
+add(sin(add(1, cos(sin(x)))), sin(add(cos(sin(x)), cos(sin(x)))))

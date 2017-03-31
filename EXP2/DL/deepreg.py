@@ -34,7 +34,7 @@ for param in ran:
 			# def f1(x,y):
 			# 	return (1/(1 + x**(-4))) + (1/(1 + y**(-4)))
 
-			def f(x,y):
+			def f1(x,y):
 				return 2 - 2.1*math.sin(1.3*x)*math.cos(9.8*y)
 
 			XY_f1 = np.array(XY_f1, dtype = 'float32')

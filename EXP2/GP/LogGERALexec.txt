@@ -1,0 +1,16 @@
+symbreg.py:24: RuntimeWarning: divide by zero encountered in double_scalars
+  return left / right
+symbreg.py:24: RuntimeWarning: invalid value encountered in double_scalars
+  return left / right
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+/root/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:101: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+Traceback (most recent call last):
+  File "symbreg.py", line 237, in <module>
+    MUTPB = MUTPB, 		NPOP = NPOP, 	train_percent = train_percent, 	verb = False,	FILE_NAME = filename)
+  File "symbreg.py", line 155, in main
+    logfile = open("Log_Exec/LOG_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
+FileNotFoundError: [Errno 2] No such file or directory: 'Log_Exec/LOG_GP_TreeMax5_Samples1000_1.csv'
