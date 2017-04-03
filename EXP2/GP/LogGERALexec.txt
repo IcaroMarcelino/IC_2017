@@ -14,3 +14,1540 @@ Traceback (most recent call last):
   File "symbreg.py", line 155, in main
     logfile = open("Log_Exec/LOG_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
 FileNotFoundError: [Errno 2] No such file or directory: 'Log_Exec/LOG_GP_TreeMax5_Samples1000_1.csv'
+s_push: parser stack overflow
+symbreg.py:24: RuntimeWarning: divide by zero encountered in double_scalars
+  return left / right
+symbreg.py:24: RuntimeWarning: invalid value encountered in double_scalars
+  return left / right
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+/root/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:101: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (43.480159282684326 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 1)
+>> Fim da execucao (50.55585432052612 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 2)
+>> Fim da execucao (79.89162921905518 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 3)
+>> Fim da execucao (59.834198236465454 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 4)
+>> Fim da execucao (44.08862328529358 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 5)
+>> Fim da execucao (45.531442165374756 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 6)
+>> Fim da execucao (44.08034825325012 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 7)
+>> Fim da execucao (43.35787892341614 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 8)
+>> Fim da execucao (59.6708927154541 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 9)
+>> Fim da execucao (43.699254751205444 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (88.72181057929993 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 1)
+>> Fim da execucao (83.12778782844543 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 2)
+>> Fim da execucao (81.9779622554779 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 3)
+>> Fim da execucao (108.22399854660034 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 4)
+>> Fim da execucao (83.4805977344513 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 5)
+>> Fim da execucao (82.90133023262024 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 6)
+>> Fim da execucao (82.27290773391724 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 7)
+>> Fim da execucao (82.23404741287231 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 8)
+>> Fim da execucao (85.10587358474731 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 9)
+>> Fim da execucao (83.0774028301239 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (125.75935769081116 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 1)
+>> Fim da execucao (120.83801436424255 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 2)
+>> Fim da execucao (121.68022894859314 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 3)
+>> Fim da execucao (121.43285202980042 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 4)
+>> Fim da execucao (170.7183141708374 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 5)
+>> Fim da execucao (124.83628702163696 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 6)
+>> Fim da execucao (121.74231004714966 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 7)
+>> Fim da execucao (121.34184074401855 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 8)
+>> Fim da execucao (121.49501872062683 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 9)
+>> Fim da execucao (175.39772391319275 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (323.7014412879944 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 1)
+>> Fim da execucao (201.4522578716278 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 2)
+>> Fim da execucao (196.40306997299194 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 3)
+>> Fim da execucao (197.85968899726868 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 4)
+>> Fim da execucao (211.23554253578186 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 5)
+>> Fim da execucao (196.63269972801208 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 6)
+>> Fim da execucao (207.83470106124878 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 7)
+>> Fim da execucao (201.85658431053162 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 8)
+>> Fim da execucao (197.9516999721527 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 9)
+>> Fim da execucao (199.59107041358948 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (420.3509030342102 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 1)
+>> Fim da execucao (415.6724376678467 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 2)
+>> Fim da execucao (417.9779694080353 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 3)
+>> Fim da execucao (496.989848613739 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 4)
+>> Fim da execucao (394.5924484729767 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 5)
+>> Fim da execucao (392.16927909851074 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 6)
+>> Fim da execucao (388.55339550971985 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 7)
+>> Fim da execucao (571.3911626338959 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 8)
+>> Fim da execucao (391.8881576061249 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 9)
+>> Fim da execucao (568.1854164600372 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 0)
+>> Fim da execucao (43.50401520729065 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 1)
+>> Fim da execucao (49.06575584411621 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 2)
+>> Fim da execucao (100.6208028793335 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 3)
+>> Fim da execucao (46.55604314804077 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 4)
+>> Fim da execucao (122.51031994819641 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 5)
+>> Fim da execucao (129.07801938056946 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 6)
+>> Fim da execucao (43.35464406013489 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 7)
+>> Fim da execucao (43.67266035079956 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 8)
+>> Fim da execucao (43.75509834289551 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 9)
+>> Fim da execucao (43.26611614227295 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 0)
+>> Fim da execucao (81.67929744720459 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 1)
+>> Fim da execucao (82.17861557006836 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 2)
+>> Fim da execucao (181.75917196273804 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 3)
+>> Fim da execucao (84.00197696685791 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 4)
+>> Fim da execucao (81.60752582550049 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 5)
+>> Fim da execucao (85.3616361618042 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 6)
+>> Fim da execucao (84.10739374160767 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 7)
+>> Fim da execucao (137.9386465549469 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 8)
+>> Fim da execucao (140.35196542739868 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 9)
+>> Fim da execucao (82.66401743888855 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 0)
+>> Fim da execucao (120.42772126197815 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 1)
+>> Fim da execucao (299.9574525356293 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 2)
+>> Fim da execucao (183.87169456481934 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 3)
+>> Fim da execucao (358.960973739624 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 4)
+>> Fim da execucao (120.97462964057922 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 5)
+>> Fim da execucao (122.86835646629333 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 6)
+>> Fim da execucao (122.1140251159668 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 7)
+>> Fim da execucao (220.62263441085815 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 8)
+>> Fim da execucao (127.86422085762024 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 9)
+>> Fim da execucao (120.99740719795227 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 0)
+>> Fim da execucao (203.39298176765442 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 1)
+>> Fim da execucao (404.86062932014465 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 2)
+>> Fim da execucao (198.81560158729553 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 3)
+>> Fim da execucao (204.77802395820618 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 4)
+>> Fim da execucao (197.4883394241333 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 5)
+>> Fim da execucao (490.6570932865143 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 6)
+>> Fim da execucao (198.05779671669006 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 7)
+>> Fim da execucao (196.91744184494019 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 8)
+>> Fim da execucao (203.46565055847168 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 9)
+>> Fim da execucao (340.98113203048706 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 0)
+>> Fim da execucao (417.9698660373688 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 1)
+>> Fim da execucao (401.8826982975006 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 2)
+>> Fim da execucao (392.71281361579895 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 3)
+>> Fim da execucao (391.0395658016205 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 4)
+>> Fim da execucao (390.73144721984863 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 5)
+>> Fim da execucao (391.69729471206665 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 6)
+>> Fim da execucao (391.09885573387146 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 7)
+>> Fim da execucao (393.36241006851196 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 8)
+>> Fim da execucao (394.9180941581726 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 9)
+>> Fim da execucao (402.821186542511 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 0)
+>> Fim da execucao (108.77167630195618 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 1)
+>> Fim da execucao (43.93346667289734 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 2)
+>> Fim da execucao (43.42866015434265 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 3)
+>> Fim da execucao (43.362515687942505 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 4)
+>> Fim da execucao (43.85114407539368 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 5)
+>> Fim da execucao (43.250203132629395 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 6)
+>> Fim da execucao (43.20851016044617 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 7)
+>> Fim da execucao (43.51890325546265 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 8)
+>> Fim da execucao (43.88172888755798 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 9)
+>> Fim da execucao (43.36757755279541 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 0)
+>> Fim da execucao (249.44175505638123 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 1)
+>> Fim da execucao (84.8358826637268 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 2)
+>> Fim da execucao (87.35061454772949 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 3)
+>> Fim da execucao (400.8944320678711 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 4)
+>> Fim da execucao (82.87194800376892 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 5)
+>> Fim da execucao (350.34228348731995 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 6)
+>> Fim da execucao (81.70960998535156 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 7)
+>> Fim da execucao (82.24011707305908 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 8)
+>> Fim da execucao (83.45927929878235 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 9)
+>> Fim da execucao (81.89576077461243 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 0)
+>> Fim da execucao (443.74407052993774 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 1)
+>> Fim da execucao (412.17308497428894 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 2)
+>> Fim da execucao (494.15903973579407 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 3)
+>> Fim da execucao (121.73484873771667 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 4)
+>> Fim da execucao (389.34568333625793 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 5)
+>> Fim da execucao (126.17370676994324 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 6)
+>> Fim da execucao (121.22634601593018 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 7)
+>> Fim da execucao (130.81636953353882 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 8)
+>> Fim da execucao (434.03950667381287 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 9)
+>> Fim da execucao (121.24512767791748 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 0)
+>> Fim da execucao (196.62551474571228 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 1)
+>> Fim da execucao (198.50182223320007 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 2)
+>> Fim da execucao (458.03740549087524 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 3)
+>> Fim da execucao (204.1042799949646 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 4)
+>> Fim da execucao (199.91300535202026 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 5)
+>> Fim da execucao (200.25127005577087 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 6)
+>> Fim da execucao (207.5184826850891 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 7)
+>> Fim da execucao (202.32604002952576 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 8)
+>> Fim da execucao (200.6788306236267 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 9)
+>> Fim da execucao (199.52594828605652 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 0)
+>> Fim da execucao (401.40010166168213 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 1)
+>> Fim da execucao (425.20746970176697 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 2)
+>> Fim da execucao (389.405957698822 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 3)
+>> Fim da execucao (403.5916883945465 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 4)
+>> Fim da execucao (412.96764850616455 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 5)
+>> Fim da execucao (391.1399681568146 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 6)
+>> Fim da execucao (388.6062912940979 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 7)
+>> Fim da execucao (652.7009785175323 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 8)
+>> Fim da execucao (424.72048139572144 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 9)
+>> Fim da execucao (406.77212858200073 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 0)
+>> Fim da execucao (43.85033345222473 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 1)
+>> Fim da execucao (45.53147101402283 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 2)
+>> Fim da execucao (43.418503284454346 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 3)
+>> Fim da execucao (47.4593870639801 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 4)
+>> Fim da execucao (43.608962059020996 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 5)
+>> Fim da execucao (184.04494500160217 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 6)
+>> Fim da execucao (47.152446269989014 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 7)
+>> Fim da execucao (45.15841770172119 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 8)
+>> Fim da execucao (145.76207780838013 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 9)
+>> Fim da execucao (43.63693809509277 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 0)
+>> Fim da execucao (83.94613981246948 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 1)
+>> Fim da execucao (82.22982215881348 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 2)
+>> Fim da execucao (82.75911355018616 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 3)
+>> Fim da execucao (82.02037525177002 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 4)
+>> Fim da execucao (84.86825966835022 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 5)
+>> Fim da execucao (321.37603187561035 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 6)
+>> Fim da execucao (82.84832429885864 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 7)
+>> Fim da execucao (83.05931234359741 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 8)
+>> Fim da execucao (689.5906419754028 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 9)
+>> Fim da execucao (82.60286712646484 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 0)
+>> Fim da execucao (149.4727804660797 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 1)
+>> Fim da execucao (120.56415176391602 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 2)
+>> Fim da execucao (121.71400117874146 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 3)
+>> Fim da execucao (120.68471837043762 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 4)
+>> Fim da execucao (122.88163757324219 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 5)
+>> Fim da execucao (121.18015456199646 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 6)
+>> Fim da execucao (120.51326322555542 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 7)
+>> Fim da execucao (120.42167115211487 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 8)
+>> Fim da execucao (685.5267806053162 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 9)
+>> Fim da execucao (122.78292083740234 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 0)
+>> Fim da execucao (197.9460768699646 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 1)
+>> Fim da execucao (197.56618857383728 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 2)
+>> Fim da execucao (199.86501789093018 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 3)
+>> Fim da execucao (586.6751909255981 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 4)
+>> Fim da execucao (197.78744435310364 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 5)
+>> Fim da execucao (199.0453977584839 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 6)
+>> Fim da execucao (197.80688643455505 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 7)
+>> Fim da execucao (197.173104763031 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 8)
+>> Fim da execucao (211.2996106147766 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 9)
+>> Fim da execucao (205.33895111083984 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 0)
+>> Fim da execucao (418.57586336135864 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 1)
+>> Fim da execucao (388.03640604019165 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 2)
+>> Fim da execucao (396.01760506629944 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 3)
+>> Fim da execucao (397.8186068534851 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 4)
+>> Fim da execucao (399.5106461048126 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 5)
+>> Fim da execucao (388.5064196586609 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 6)
+>> Fim da execucao (393.2806136608124 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 7)
+>> Fim da execucao (395.94552993774414 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 8)
+>> Fim da execucao (407.04853439331055 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 9)
+>> Fim da execucao (389.24120688438416 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 0)
+>> Fim da execucao (448.7284667491913 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 1)
+>> Fim da execucao (43.53802752494812 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 2)
+>> Fim da execucao (43.27768111228943 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 3)
+>> Fim da execucao (45.47443723678589 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 4)
+>> Fim da execucao (43.41271162033081 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 5)
+>> Fim da execucao (43.24091172218323 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 6)
+>> Fim da execucao (43.30144453048706 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 7)
+>> Fim da execucao (408.2942223548889 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 8)
+>> Fim da execucao (43.201420068740845 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 9)
+>> Fim da execucao (358.1546461582184 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 0)
+>> Fim da execucao (867.0390625 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 1)
+>> Fim da execucao (81.61554098129272 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 2)
+>> Fim da execucao (82.04812669754028 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 3)
+>> Fim da execucao (81.91763305664062 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 4)
+>> Fim da execucao (83.36845231056213 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 5)
+>> Fim da execucao (84.18136525154114 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 6)
+>> Fim da execucao (86.58148431777954 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 7)
+>> Fim da execucao (1335.1633441448212 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 8)
+>> Fim da execucao (81.95559859275818 segundos)
+
+>> Regressao Numerica com GP: 
+>> 2000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 9)
+>> Fim da execucao (81.61113357543945 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 0)
+>> Fim da execucao (126.30501794815063 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 1)
+>> Fim da execucao (122.03588271141052 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 2)
+>> Fim da execucao (122.88731336593628 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 3)
+>> Fim da execucao (2025.9597561359406 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 4)
+>> Fim da execucao (1291.6045684814453 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 5)
+>> Fim da execucao (121.38713645935059 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 6)
+>> Fim da execucao (125.47992444038391 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 7)
+>> Fim da execucao (1803.546837091446 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 8)
+>> Fim da execucao (120.91044664382935 segundos)
+
+>> Regressao Numerica com GP: 
+>> 3000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 9)
+>> Fim da execucao (126.52419900894165 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 0)
+>> Fim da execucao (199.21203231811523 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 1)
+>> Fim da execucao (213.68108677864075 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 2)
+>> Fim da execucao (197.1016025543213 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 3)
+>> Fim da execucao (203.92295241355896 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 4)
+>> Fim da execucao (196.5419681072235 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 5)
+>> Fim da execucao (205.34092783927917 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 6)
+>> Fim da execucao (199.14661502838135 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 7)
+>> Fim da execucao (204.03150844573975 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 8)
+>> Fim da execucao (199.56933283805847 segundos)
+
+>> Regressao Numerica com GP: 
+>> 5000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 9)
+>> Fim da execucao (196.4184865951538 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 0)
+>> Fim da execucao (403.7846448421478 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 1)
+>> Fim da execucao (411.02339911460876 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 2)
+>> Fim da execucao (388.7346694469452 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 3)
+>> Fim da execucao (391.2110118865967 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 4)
+>> Fim da execucao (391.16209745407104 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 5)
+>> Fim da execucao (390.23582577705383 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 6)
+>> Fim da execucao (391.769229888916 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 7)
+>> Fim da execucao (390.73382902145386 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 8)
+>> Fim da execucao (401.099080324173 segundos)
+
+>> Regressao Numerica com GP: 
+>> 10000 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 9)
+>> Fim da execucao (389.6927921772003 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 90
+>> Inicio (Execucao 0)
+>> Fim da execucao (43.59504795074463 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 90
+>> Inicio (Execucao 1)
+>> Fim da execucao (43.20936584472656 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 90
+>> Inicio (Execucao 2)
+>> Fim da execucao (43.25925135612488 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 90
+>> Inicio (Execucao 3)
+>> Fim da execucao (43.59329152107239 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 90
+>> Inicio (Execucao 4)
+>> Fim da execucao (44.44270133972168 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 90
+>> Inicio (Execucao 5)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 450, in compile
+    return eval(code, pset.context, {})
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "symbreg.py", line 237, in <module>
+    MUTPB = MUTPB, 		NPOP = NPOP, 	train_percent = train_percent, 	verb = False,	FILE_NAME = filename)
+  File "symbreg.py", line 138, in main
+    fitnesses = list(map(toolbox.evaluate, offspring))
+  File "symbreg.py", line 59, in evalSymbReg
+    f_approx = toolbox.compile(expr=individual)
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 457, in compile
+    "DEAP will now abort.").with_traceback(traceback)
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 450, in compile
+    return eval(code, pset.context, {})
+MemoryError: DEAP : Error in tree evaluation : Python cannot evaluate a tree higher than 90. To avoid this problem, you should use bloat control on your operators. See the DEAP documentation for more information. DEAP will now abort.
