@@ -11,8 +11,8 @@ from deap import creator
 from deap import tools
 from deap import gp
 import numpy as np
-import pygraphviz as pgv
-from sympy import simplify, expand
+# import pygraphviz as pgv
+# from sympy import simplify, expand
 
 import time
 import csv
@@ -197,18 +197,18 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	info1 = open("INFO_GP_EXP1.csv", 'a')
 	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
-	nodes, edges, labels = gp.graph(hof[0])
+	# nodes, edges, labels = gp.graph(hof[0])
 
-	g = pgv.AGraph()
-	g.add_nodes_from(nodes)
-	g.add_edges_from(edges)
-	g.layout(prog="dot")
+	# g = pgv.AGraph()
+	# g.add_nodes_from(nodes)
+	# g.add_edges_from(edges)
+	# g.layout(prog="dot")
 
-	for i in nodes:
-		n = g.get_node(i)
-		n.attr["label"] = labels[i]
+	# for i in nodes:
+	# 	n = g.get_node(i)
+	# 	n.attr["label"] = labels[i]
 
-	g.draw("Grafos_Melhores/GRAPF_" + filename +  "_" + str(NEXEC + 1) + ".pdf")
+	# g.draw("Grafos_Melhores/GRAPF_" + filename +  "_" + str(NEXEC + 1) + ".pdf")
 	hof = []
 
 if __name__ == "__main__":
