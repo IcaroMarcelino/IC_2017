@@ -1,0 +1,36 @@
+symbreg1.py:24: RuntimeWarning: divide by zero encountered in double_scalars
+  return left / right
+symbreg1.py:24: RuntimeWarning: invalid value encountered in double_scalars
+  return left / right
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+/root/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:101: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (47.488728284835815 segundos)
+
+Traceback (most recent call last):
+  File "symbreg1.py", line 238, in <module>
+    MUTPB = MUTPB, 		NPOP = NPOP, 	train_percent = train_percent, 	verb = False,	FILE_NAME = filename)
+  File "symbreg1.py", line 180, in main
+    mse.append((F1-f(x,y))**2)
+NameError: name 'mse' is not defined
+symbreg1.py:24: RuntimeWarning: divide by zero encountered in double_scalars
+  return left / right
+symbreg1.py:24: RuntimeWarning: invalid value encountered in double_scalars
+  return left / right
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+/root/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:101: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+>> Regressao Numerica com GP: 
+>> 1000 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (44.70060086250305 segundos)
+
+Traceback (most recent call last):
+  File "symbreg1.py", line 238, in <module>
+    MUTPB = MUTPB, 		NPOP = NPOP, 	train_percent = train_percent, 	verb = False,	FILE_NAME = filename)
+  File "symbreg1.py", line 180, in main
+    mse.append((F1-f(x,y))**2)
+NameError: name 'mse' is not defined

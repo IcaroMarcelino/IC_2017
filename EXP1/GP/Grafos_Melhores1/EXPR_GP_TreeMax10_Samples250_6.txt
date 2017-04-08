@@ -1,0 +1,1 @@
+add(div(div(div(1, 1), add(div(mul(2, div(1, mul(2, mul(y, y)))), mul(y, y)), 1)), add(div(1, 1), div(div(add(div(1, mul(y, y)), div(div(2, mul(x, x)), 1)), mul(x, x)), add(1, div(1, 1))))), 1)

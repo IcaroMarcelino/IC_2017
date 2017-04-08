@@ -1,0 +1,1 @@
+add(2, div(add(y, 2), sub(neg(2), mul(add(y, y), y))))

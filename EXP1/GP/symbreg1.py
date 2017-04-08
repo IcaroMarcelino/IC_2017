@@ -72,7 +72,7 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 		return math.fsum(sqerrors) / len(points),
 
 
-	points = zip(pointsX, pointsY)
+	points = list(zip(pointsX, pointsY))
 
 	TRAIN_TAM = int(train_percent*len(points))
 	TEST_TAM = int((1 - train_percent)*len(points))
@@ -178,7 +178,7 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 		except ValueError:
 			F1 = float('nan')
 		f_xy_approx.append(F1)
-		mse.append((F1-f(x,y))**2)
+		mse_final.append((F1-f(x,y))**2)
 
 	tabela = list(zip(px_test, py_test, f_xy, f_xy_approx))
 	tabela = [('x', 'y', "f(x,y)", "f*(x,y)")] + tabela
@@ -192,10 +192,10 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	if (NEXEC == 0):
 		info.write("Altura Maxima,#Amostras,#Execucao,MSE (Melhor),Altura (Melhor),Tempo Execucao\n")
 
-	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
+	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	info1 = open("INFO_GP_EXP1_a.csv", 'a')
-	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
+	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	nodes, edges, labels = gp.graph(hof[0])
 
