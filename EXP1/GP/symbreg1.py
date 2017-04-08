@@ -11,11 +11,14 @@ from deap import creator
 from deap import tools
 from deap import gp
 import numpy as np
-#import pygraphviz as pgv
-#from sympy import simplify, expand
+import pygraphviz as pgv
+from sympy import simplify, expand
 
 import time
 import csv
+
+# def f(x,y):
+# 	return 2 - 2.1*math.sin(1.3*x)*math.cos(9.8*y)
 
 def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME):
 	# Define new functions
@@ -32,8 +35,8 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	pset.addPrimitive(operator.mul, 2)
 	pset.addPrimitive(div, 2)
 	pset.addPrimitive(operator.neg, 1)
-	pset.addPrimitive(math.cos, 1)
-	pset.addPrimitive(math.sin, 1)
+	#pset.addPrimitive(math.cos, 1)
+	#pset.addPrimitive(math.sin, 1)
 	pset.addTerminal(1)
 	pset.addTerminal(2)
 	pset.renameArguments(ARG0='x')
@@ -48,11 +51,8 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 	toolbox.register("compile", gp.compile, pset=pset)
 
-	# def f(x,y):
-	# 	return (1/(1 + x**(-4))) + (1/(1 + y**(-4)))
-
 	def f(x,y):
-		return 2 - 2.1*math.sin(1.3*x)*math.cos(9.8*y)
+		return (1/(1 + x**(-4))) + (1/(1 + y**(-4)))
 
 	def evalSymbReg(individual, points):
 		# Transform the tree expression in a callable function
@@ -72,10 +72,10 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 		return math.fsum(sqerrors) / len(points),
 
 
-	points = list(zip(pointsX, pointsY))
+	points = zip(pointsX, pointsY)
 
-	TRAIN_TAM = int(train_percent*len(pointsX))
-	TEST_TAM = int((1 - train_percent)*len(pointsX))
+	TRAIN_TAM = int(train_percent*len(points))
+	TEST_TAM = int((1 - train_percent)*len(points))
 
 	toolbox.register("evaluate", evalSymbReg, points = points[:TRAIN_TAM])
 	toolbox.register("select", tools.selTournament, tournsize=3)
@@ -152,7 +152,7 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 
 	end = time.time()
 
-	logfile = open("Log_Exec/LOG_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
+	logfile = open("Log_Exec1/LOG_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
 	logfile.write(str(log))
 	print(">> Fim da execucao (" + str(end - start) + " segundos)\n")
 
@@ -162,12 +162,13 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 
 	tree = gp.PrimitiveTree(hof[0])
 	function = gp.compile(tree, pset)
-	expFILE = open("Grafos_Melhores/EXPR_" + filename + "_" +  str(NEXEC + 1) + ".txt", 'w')
+	expFILE = open("Grafos_Melhores1/EXPR_" + filename + "_" +  str(NEXEC + 1) + ".txt", 'w')
 	expFILE.write(str(tree))
 	
 	px_test = pointsX[TEST_TAM:]
 	py_test = pointsY[TEST_TAM:]
 	f_xy = [f(x,y) for x,y in points[TEST_TAM:]]
+
 
 	f_xy_approx = []
 	mse_final = []
@@ -182,32 +183,32 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	tabela = list(zip(px_test, py_test, f_xy, f_xy_approx))
 	tabela = [('x', 'y', "f(x,y)", "f*(x,y)")] + tabela
 
-	saida = open("Saidas/SAIDA_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
+	saida = open("Saidas1/SAIDA_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
 	wr = csv.writer(saida)
 	for row in tabela:
 		wr.writerow(row)
 
-	info = open("Info/INFO_" + filename + ".csv", 'a')
+	info = open("Info1/INFO_" + filename + ".csv", 'a')
 	if (NEXEC == 0):
 		info.write("Altura Maxima,#Amostras,#Execucao,MSE (Melhor),Altura (Melhor),Tempo Execucao\n")
 
 	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
-	info1 = open("INFO_GP_EXP2.csv", 'a')
-	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + sstr(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
+	info1 = open("INFO_GP_EXP1_a.csv", 'a')
+	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
-	#nodes, edges, labels = gp.graph(hof[0])
+	nodes, edges, labels = gp.graph(hof[0])
 
-	#g = pgv.AGraph()
-	#g.add_nodes_from(nodes)
-	#g.add_edges_from(edges)
-	#g.layout(prog="dot")
+	g = pgv.AGraph()
+	g.add_nodes_from(nodes)
+	g.add_edges_from(edges)
+	g.layout(prog="dot")
 
-	#for i in nodes:
-	#	n = g.get_node(i)
-	#	n.attr["label"] = labels[i]
+	for i in nodes:
+		n = g.get_node(i)
+		n.attr["label"] = labels[i]
 
-	#g.draw("Grafos_Melhores/GRAPF_" + filename +  "_" + str(NEXEC + 1) + ".pdf")
+	g.draw("Grafos_Melhores/GRAPF_" + filename +  "_" + str(NEXEC + 1) + ".pdf")
 	hof = []
 
 if __name__ == "__main__":
@@ -218,13 +219,13 @@ if __name__ == "__main__":
 	train_percent = 0.7
 
 	tam_max_tree = [5,10,17,34,68,90]
-	step_samples = [(1, 10), (1, 20), (1,30), (1,50), (1, 100)]
+	step_samples = [(4, 10), (4, 20), (4,30), (4,50), (4, 100)]
 
 	for tam_max in tam_max_tree:
 		for step, scale in step_samples:
 			for n in list(range(0,10)):
-				lim_inf = -50
-				lim_sup = +50
+				lim_inf = -5
+				lim_sup = +5
 
 				px = [x*(1/scale) for x in list(range(lim_inf*scale, lim_sup*scale, step))]
 				px = np.random.permutation(px)

@@ -32,8 +32,8 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	pset.addPrimitive(operator.mul, 2)
 	pset.addPrimitive(div, 2)
 	pset.addPrimitive(operator.neg, 1)
-	pset.addPrimitive(math.cos, 1)
-	pset.addPrimitive(math.sin, 1)
+	# pset.addPrimitive(math.cos, 1)
+	# pset.addPrimitive(math.sin, 1)
 	pset.addTerminal(1)
 	pset.addTerminal(2)
 	pset.renameArguments(ARG0='x')
@@ -152,7 +152,7 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 
 	end = time.time()
 
-	logfile = open("Log_Exec/LOG_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
+	logfile = open("Log_Exec1/LOG_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
 	logfile.write(str(log))
 	print(">> Fim da execucao (" + str(end - start) + " segundos)\n")
 
@@ -162,7 +162,7 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 
 	tree = gp.PrimitiveTree(hof[0])
 	function = gp.compile(tree, pset)
-	expFILE = open("Grafos_Melhores/EXPR_" + filename + "_" +  str(NEXEC + 1) + ".txt", 'w')
+	expFILE = open("Grafos_Melhores1/EXPR_" + filename + "_" +  str(NEXEC + 1) + ".txt", 'w')
 	expFILE.write(str(tree))
 	
 	px_test = pointsX[TEST_TAM:]
@@ -182,18 +182,18 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	tabela = list(zip(px_test, py_test, f_xy, f_xy_approx))
 	tabela = [('x', 'y', "f(x,y)", "f*(x,y)")] + tabela
 
-	saida = open("Saidas/SAIDA_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
+	saida = open("Saidas1/SAIDA_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
 	wr = csv.writer(saida)
 	for row in tabela:
 		wr.writerow(row)
 
-	info = open("Info/INFO_" + filename + ".csv", 'a')
+	info = open("Info1/INFO_" + filename + ".csv", 'a')
 	if (NEXEC == 0):
 		info.write("Altura Maxima,#Amostras,#Execucao,MSE (Melhor),Altura (Melhor),Tempo Execucao\n")
 
 	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
-	info1 = open("INFO_GP_EXP2.csv", 'a')
+	info1 = open("INFO_GP_EXP2_b.csv", 'a')
 	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + sstr(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	#nodes, edges, labels = gp.graph(hof[0])

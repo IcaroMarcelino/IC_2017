@@ -170,12 +170,14 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	f_xy = [f(x,y) for x,y in points[TEST_TAM:]]
 
 	f_xy_approx = []
+	mse_final = []
 	for x,y in points[TEST_TAM:]:
 		try:
 			F1 = function(x,y)
 		except ValueError:
 			F1 = float('nan')
 		f_xy_approx.append(F1)
+		mse.append((F1-f(x,y))**2)
 
 
 	tabela = list(zip(px_test, py_test, f_xy, f_xy_approx))
@@ -190,10 +192,10 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	if (NEXEC == 0):
 		info.write("Altura Maxima,#Amostras,#Execucao,MSE (Melhor),Altura (Melhor),Tempo Execucao\n")
 
-	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(toolbox.evaluate(hof[0])[0]) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
+	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	info1 = open("INFO_GP_EXP1.csv", 'a')
-	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(toolbox.evaluate(hof[0])[0]) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
+	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final/len(mse_final))) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	nodes, edges, labels = gp.graph(hof[0])
 
