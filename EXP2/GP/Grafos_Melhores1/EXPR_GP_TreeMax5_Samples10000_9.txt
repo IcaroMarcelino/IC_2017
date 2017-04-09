@@ -1,0 +1,1 @@
+add(neg(x), add(x, 2))

@@ -194,7 +194,7 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 
 	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
-	info1 = open("INFO_GP_EXP1.csv", 'a')
+	info1 = open("INFO_GP_EXP1_final.csv", 'a')
 	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	# nodes, edges, labels = gp.graph(hof[0])

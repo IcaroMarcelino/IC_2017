@@ -1,1 +1,1 @@
-add(cos(cos(sub(sin(cos(sub(div(cos(mul(div(1, y), div(x, y))), y), sin(cos(x))))), cos(x)))), cos(mul(div(cos(sub(cos(cos(cos(add(div(div(1, x), x), cos(x))))), 1)), x), div(div(1, cos(sin(cos(mul(div(1, x), div(1, y)))))), y))))
+add(cos(cos(cos(add(sin(cos(cos(cos(sub(add(1, y), cos(cos(y))))))), cos(div(y, cos(sub(neg(x), div(y, 2))))))))), cos(cos(mul(1, mul(cos(sub(cos(cos(cos(mul(1, x)))), div(y, y))), sub(neg(cos(cos(add(1, 2)))), div(y, cos(div(add(1, 2), div(add(2, cos(y)), y))))))))))

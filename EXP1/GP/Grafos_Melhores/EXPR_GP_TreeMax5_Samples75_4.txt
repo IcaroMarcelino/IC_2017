@@ -1,1 +1,1 @@
-add(sin(sub(div(x, x), cos(x))), sin(sub(div(x, mul(1, x)), cos(y))))
+add(cos(sub(cos(2), cos(mul(y, 1)))), cos(sub(neg(cos(1)), div(cos(x), sin(2)))))

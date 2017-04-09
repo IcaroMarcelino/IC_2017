@@ -1,0 +1,1 @@
+add(mul(1, add(sub(2, y), sub(y, 1))), mul(1, 1))
