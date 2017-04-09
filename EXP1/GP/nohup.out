@@ -4135,3 +4135,282 @@ Traceback (most recent call last):
   File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 450, in compile
     return eval(code, pset.context, {})
 MemoryError: DEAP : Error in tree evaluation : Python cannot evaluate a tree higher than 90. To avoid this problem, you should use bloat control on your operators. See the DEAP documentation for more information. DEAP will now abort.
+s_push: parser stack overflow
+symbreg_alea.py:27: RuntimeWarning: divide by zero encountered in double_scalars
+  return left / right
+/root/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:101: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+symbreg_alea.py:27: RuntimeWarning: invalid value encountered in double_scalars
+  return left / right
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (33.0186231136322 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 1)
+>> Fim da execucao (33.67706274986267 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 2)
+>> Fim da execucao (31.53765106201172 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 3)
+>> Fim da execucao (35.462162017822266 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 4)
+>> Fim da execucao (37.89061236381531 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 5)
+>> Fim da execucao (32.78288149833679 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 6)
+>> Fim da execucao (34.01288676261902 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 7)
+>> Fim da execucao (33.946080446243286 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 8)
+>> Fim da execucao (36.468164920806885 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 9)
+>> Fim da execucao (34.44054841995239 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 0)
+>> Fim da execucao (44.30036187171936 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 1)
+>> Fim da execucao (42.125226736068726 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 2)
+>> Fim da execucao (38.15228772163391 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 3)
+>> Fim da execucao (51.744614601135254 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 4)
+>> Fim da execucao (40.13868832588196 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 5)
+>> Fim da execucao (48.46234655380249 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 6)
+>> Fim da execucao (50.243882179260254 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 7)
+>> Fim da execucao (43.27249073982239 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 8)
+>> Fim da execucao (40.629918813705444 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 9)
+>> Fim da execucao (49.1912157535553 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 0)
+>> Fim da execucao (83.41657257080078 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 1)
+>> Fim da execucao (56.69740343093872 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 2)
+>> Fim da execucao (59.071170806884766 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 3)
+>> Fim da execucao (67.29617309570312 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 4)
+>> Fim da execucao (72.14107203483582 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 5)
+>> Fim da execucao (60.00310039520264 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 6)
+>> Fim da execucao (54.9511239528656 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 7)
+>> Fim da execucao (44.73324227333069 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 8)
+>> Fim da execucao (48.93996834754944 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 9)
+>> Fim da execucao (56.560611963272095 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 0)
+>> Fim da execucao (108.0396957397461 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 1)
+>> Fim da execucao (77.90331244468689 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 2)
+>> Fim da execucao (98.5505964756012 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 3)
+>> Fim da execucao (134.63748574256897 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 4)
+>> Fim da execucao (90.663907289505 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 5)
+>> Fim da execucao (85.3904755115509 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 6)
+>> Fim da execucao (77.72962594032288 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 7)
+>> Fim da execucao (105.12839984893799 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 8)
+>> Fim da execucao (79.2647967338562 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 9)
+>> Fim da execucao (78.75868821144104 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 0)
+>> Fim da execucao (149.4875030517578 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 1)
+>> Fim da execucao (169.22264671325684 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 2)
+>> Fim da execucao (180.59381794929504 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 3)
+>> Fim da execucao (169.5750811100006 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 4)
+>> Fim da execucao (213.90943908691406 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 5)
+>> Fim da execucao (160.18443036079407 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 6)
+>> Fim da execucao (151.78764700889587 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 7)
+>> Fim da execucao (191.0745542049408 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 8)
+>> Fim da execucao (151.1838092803955 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 9)
+>> Fim da execucao (180.34353399276733 segundos)
+
+>> Regressao Numerica com GP: 
+>> 250 amostras;tamanho max da arvore: 90
+>> Inicio (Execucao 0)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 450, in compile
+    return eval(code, pset.context, {})
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "symbreg_alea.py", line 236, in <module>
+    MUTPB = MUTPB, 		NPOP = NPOP, 	train_percent = train_percent, 	verb = False,	FILE_NAME = filename)
+  File "symbreg_alea.py", line 138, in main
+    fitnesses = list(map(toolbox.evaluate, offspring))
+  File "symbreg_alea.py", line 59, in evalSymbReg
+    f_approx = toolbox.compile(expr=individual)
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 457, in compile
+    "DEAP will now abort.").with_traceback(traceback)
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 450, in compile
+    return eval(code, pset.context, {})
+MemoryError: DEAP : Error in tree evaluation : Python cannot evaluate a tree higher than 90. To avoid this problem, you should use bloat control on your operators. See the DEAP documentation for more information. DEAP will now abort.

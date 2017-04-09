@@ -1,0 +1,1 @@
+add(cos(div(sin(div(mul(y, 1), cos(cos(div(div(mul(y, 1), x), x))))), div(y, 1))), cos(div(cos(cos(div(1, x))), x)))

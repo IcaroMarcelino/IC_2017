@@ -1,0 +1,1 @@
+add(sub(cos(div(sub(cos(div(sub(cos(1), cos(2)), 1)), cos(2)), 1)), cos(2)), 1)

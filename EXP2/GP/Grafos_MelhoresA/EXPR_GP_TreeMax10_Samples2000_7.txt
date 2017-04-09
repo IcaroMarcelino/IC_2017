@@ -1,0 +1,1 @@
+add(neg(sin(add(sin(add(sin(mul(1, 1)), div(1, div(1, 1)))), sin(add(sin(1), sin(add(sub(sin(1), cos(x)), sub(sin(2), mul(x, 1))))))))), add(div(1, div(1, div(1, div(1, 1)))), 2))

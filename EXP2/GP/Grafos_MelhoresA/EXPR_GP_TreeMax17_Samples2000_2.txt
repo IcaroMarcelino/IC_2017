@@ -1,0 +1,1 @@
+add(1, cos(div(sin(div(1, div(2, sub(cos(x), 1)))), 2)))

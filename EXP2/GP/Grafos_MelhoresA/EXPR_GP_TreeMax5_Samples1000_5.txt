@@ -1,0 +1,1 @@
+add(1, add(cos(neg(mul(1, 1))), div(1, 2)))

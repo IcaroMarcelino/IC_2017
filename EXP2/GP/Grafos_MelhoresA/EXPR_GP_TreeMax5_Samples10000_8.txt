@@ -1,0 +1,1 @@
+div(div(1, cos(div(1, 1))), cos(cos(neg(2))))

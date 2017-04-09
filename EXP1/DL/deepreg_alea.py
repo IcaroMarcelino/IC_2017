@@ -10,7 +10,7 @@ import csv
 
 import time
 ran = [[[10,10,10,10,10,10,10,10,10], range(0,10)], [[10,10,10,10,10,10,10], range(10,20)], [[10,10,10,10,10], range(20,30)], [[10,10,10], range(30,40)], [[10], range(40,50)]]
-step_samples = [25, 50, 75, 125, 150]
+step_samples = [250]
 lim_inf = -5
 lim_sup = +5
 

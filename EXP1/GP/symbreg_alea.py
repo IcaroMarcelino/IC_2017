@@ -219,7 +219,7 @@ if __name__ == "__main__":
 	train_percent = 0.7
 
 	tam_max_tree = [5,10,17,34,68,90]
-	step_samples = [25, 50, 75, 125, 150]
+	step_samples = [250]
 
 	for tam_max in tam_max_tree:
 		for nsamples in step_samples:
