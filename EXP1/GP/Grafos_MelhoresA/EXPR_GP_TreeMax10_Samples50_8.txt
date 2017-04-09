@@ -1,0 +1,1 @@
+add(cos(neg(div(sin(div(sin(x), cos(1))), x))), cos(div(cos(sin(sin(sin(cos(add(y, y)))))), div(y, sin(add(sin(y), y))))))

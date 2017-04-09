@@ -222,7 +222,7 @@ if __name__ == "__main__":
 	step_samples = [25, 50, 75, 125, 150]
 
 	for tam_max in tam_max_tree:
-		for step, scale in step_samples:
+		for nsamples in step_samples:
 			for n in list(range(0,10)):
 				lim_inf = -5
 				lim_sup = +5
