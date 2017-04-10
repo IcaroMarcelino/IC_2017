@@ -1,0 +1,1 @@
+add(cos(add(cos(sin(cos(sin(cos(add(sub(1, 1), neg(cos(y)))))))), neg(cos(sub(cos(1), cos(2)))))), 1)

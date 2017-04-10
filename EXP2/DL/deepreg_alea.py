@@ -16,7 +16,7 @@ lim_sup = +50
 
 arq = 0
 for param in ran:
-	for step, scale in step_samples:
+	for nsamples in step_samples:
 		for i in param[1]:
 			start = time.time()
 			################ Samples #####################################
