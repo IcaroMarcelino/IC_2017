@@ -74,8 +74,6 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 
 	TRAIN_TAM = int(train_percent*len(pointsX))
 	TEST_TAM = int((1 - train_percent)*len(pointsX))
-	print(TRAIN_TAM)
-	print(TEST_TAM)
 
 	toolbox.register("evaluate", evalSymbReg, points = points[:TRAIN_TAM])
 	toolbox.register("select", tools.selTournament, tournsize=3)
@@ -165,13 +163,13 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 	expFILE = open("Grafos_Melhores/EXPR_" + filename + "_" +  str(NEXEC + 1) + ".txt", 'w')
 	expFILE.write(str(tree))
 	
-	px_test = pointsX[TEST_TAM:]
-	py_test = pointsY[TEST_TAM:]
-	f_xy = [y for x,y in points[TEST_TAM:]]
-
+	px_test = pointsX[TRAIN_TAM:]
+	py_test = pointsY[TRAIN_TAM:]
+	f_xy = [y for x,y in points[TRAIN_TAM:]]
 	f_xy_approx = []
 	mse_final = []
-	for x,y in points[TEST_TAM:]:
+
+	for x,y in points[TRAIN_TAM:]:
 		try:
 			F1 = function(*x)
 		except ValueError:
@@ -179,8 +177,9 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 		f_xy_approx.append(F1)
 		mse_final.append((F1-y)**2)
 
-	tabela = list(zip(px_test[0],px_test[1],px_test[2],px_test[3],px_test[4], py_test, f_xy_approx))
-	tabela = [('x0','x1','x2','x3','x4', "f(x,y)", "f*(x,y)")] + tabela
+	tabela = [('x0', 'x1','x2', 'x3','x4', "f(x,y)", "f*(x,y)")]
+	for xt,yt,yp in zip(px_test,py_test,f_xy_approx):
+		tabela.append(list((xt[0],xt[1],xt[2],xt[3],xt[4],yt,yp)))
 
 	saida = open("Saidas/SAIDA_" + filename + "_" + str(NEXEC + 1) + ".csv", 'w')
 	wr = csv.writer(saida)

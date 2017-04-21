@@ -53,12 +53,8 @@ for param in ran:
 		# Fit
 		regressor.fit(x = x_train, y = y_train, steps = 20000, batch_size = 50, input_fn = None, monitors = None, max_steps = None)
 
-		# Transform
-		#x_transformed = scaler.transform(x_test)
-		x_transformed = x_test
-
 		# Predict and score
-		y_predicted = list(regressor.predict(x_transformed, as_iterable=True))
+		y_predicted = list(regressor.predict(x_test, as_iterable=True))
 		score = metrics.mean_squared_error(y_predicted, y_test)
 
 		
@@ -67,8 +63,9 @@ for param in ran:
 		info = open("INFO_DL_EXP2.csv", 'a')
 		info.write(str(arq +1) + ',' + str(len(XY_f1)) + ',' + str(i) + ',' + '{0:f}'.format(score) + ',' + str(end-start) + '\n')
 
-		tabela = list(zip(x_test[0],x_test[1],x_test[2],x_test[3],x_test[4],y_test, list(regressor.predict(x = x_test, as_iterable=True))))
-		tabela = [('x0', 'x1','x2', 'x3','x4', "f(x,y)", "f*(x,y)")] + tabela
+		tabela = [('x0', 'x1','x2', 'x3','x4', "f(x,y)", "f*(x,y)")]
+		for xt,yt,yp in zip(x_test,y_test,y_predicted):
+			tabela.append(list((xt[0],xt[1],xt[2],xt[3],xt[4],yt,yp)))
 
 		myfile = open("Saidas/SAIDA_EXP2_DL_ARQ" + str(arq +1) + "_Samples" + str(len(XY_f1)) + "_EXEC" + str(i) + ".csv", 'w')
 		wr = csv.writer(myfile)

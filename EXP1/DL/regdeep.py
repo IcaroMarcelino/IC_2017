@@ -1,3 +1,4 @@
+
 import tensorflow as tf
 import numpy as np
 
@@ -138,4 +139,4 @@ with tf.Session() as sess:
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
 
     outputs = np.reshape(outputs[int((1 - train_percent)*len(points)):], (len(outputs[int((1 - train_percent)*len(points)):]),n_outputs))
-    print("Accuracy:", accuracy.eval(session=sess, feed_dict = {x: points[int((1 - train_percent)*len(points)):], y: outputs}))
+print("Accuracy:", accuracy.eval(session=sess, feed_dict = {x: points[int((1 - train_percent)*len(points)):], y: outputs}))
