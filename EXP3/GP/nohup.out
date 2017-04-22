@@ -641,3 +641,153 @@ Traceback (most recent call last):
   File "symbreg.py", line 189, in main
     info = open("Info/INFO_" + filename + ".csv", 'a')
 FileNotFoundError: [Errno 2] No such file or directory: 'Info/INFO_GP_TreeMax5_Samples1502.csv'
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 0)
+>> Fim da execucao (470.07335805892944 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 1)
+>> Fim da execucao (650.1990895271301 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 2)
+>> Fim da execucao (565.0520627498627 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 3)
+>> Fim da execucao (539.1412789821625 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 4)
+>> Fim da execucao (654.0731720924377 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 5)
+>> Fim da execucao (601.2420737743378 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 6)
+>> Fim da execucao (641.4392347335815 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 7)
+>> Fim da execucao (590.4832761287689 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 8)
+>> Fim da execucao (674.2678980827332 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 5
+>> Inicio (Execucao 9)
+>> Fim da execucao (628.939204454422 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 0)
+>> Fim da execucao (1492.7247021198273 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 1)
+>> Fim da execucao (1128.2235159873962 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 2)
+>> Fim da execucao (1625.314689874649 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 3)
+>> Fim da execucao (1574.0059580802917 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 4)
+>> Fim da execucao (1372.2200882434845 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 5)
+>> Fim da execucao (1560.155151605606 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 6)
+>> Fim da execucao (2061.432384252548 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 7)
+>> Fim da execucao (1209.7227435112 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 8)
+>> Fim da execucao (1373.302741765976 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 10
+>> Inicio (Execucao 9)
+>> Fim da execucao (1461.01771235466 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 0)
+>> Fim da execucao (3313.7157719135284 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 1)
+>> Fim da execucao (4023.3901431560516 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 2)
+>> Fim da execucao (2025.0358192920685 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 3)
+>> Fim da execucao (2458.3888659477234 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 4)
+>> Fim da execucao (2399.3375220298767 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 5)
+>> Fim da execucao (4083.6420364379883 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 6)
+>> Fim da execucao (1932.9645824432373 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 7)
+>> Fim da execucao (3146.2169783115387 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 8)
+>> Fim da execucao (2550.260116815567 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 17
+>> Inicio (Execucao 9)
+>> Fim da execucao (2987.09325671196 segundos)
+

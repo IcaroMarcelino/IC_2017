@@ -216,7 +216,7 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [5,10,17,34,68]
+	tam_max_tree = [5,10,17]
 
 	def lerBase(nome_arquivo):
 		bd = open(nome_arquivo, 'r').readlines()

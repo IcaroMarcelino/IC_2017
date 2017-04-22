@@ -1,0 +1,1 @@
+add(add(add(add(add(2, 2), add(2, 2)), add(cos(x4), mul(2, 2))), div(add(sub(x3, 1), mul(2, 2)), sub(cos(x4), cos(2)))), add(add(div(add(x4, 2), add(x3, 1)), add(add(2, x4), mul(2, 2))), add(add(cos(x4), cos(x4)), add(cos(x4), cos(x4)))))
