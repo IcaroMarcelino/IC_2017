@@ -791,3 +791,53 @@ FileNotFoundError: [Errno 2] No such file or directory: 'Info/INFO_GP_TreeMax5_S
 >> Inicio (Execucao 9)
 >> Fim da execucao (2987.09325671196 segundos)
 
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 5)
+>> Fim da execucao (7919.824836730957 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 6)
+>> Fim da execucao (11842.350149869919 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 7)
+>> Fim da execucao (9267.355937957764 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 8)
+>> Fim da execucao (10776.497642755508 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 9)
+>> Fim da execucao (9785.065707921982 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 0)
+>> Fim da execucao (6450.382171869278 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 1)
+>> Fim da execucao (12728.278968334198 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 2)
+>> Fim da execucao (8018.87078166008 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 3)
+>> Fim da execucao (14237.556579589844 segundos)
+
+>> Regressao Numerica com GP: 
+>> 1502 amostras;tamanho max da arvore: 68
+>> Inicio (Execucao 4)
+>> Fim da execucao (10156.104587316513 segundos)
+

@@ -192,7 +192,7 @@ def main(NEXEC, TAM_MAX, pointsX, pointsY, NGEN, CXPB, MUTPB, NPOP, train_percen
 
 	info.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
-	info1 = open("INFO_GP_EXP2.csv", 'a')
+	info1 = open("INFO_GP_EXP2_68.csv", 'a')
 	info1.write(str(TAM_MAX) + ',' + str(len(points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	#nodes, edges, labels = gp.graph(hof[0])
@@ -216,7 +216,7 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [34,68]
+	tam_max_tree = [68]
 
 	def lerBase(nome_arquivo):
 		bd = open(nome_arquivo, 'r').readlines()
@@ -236,7 +236,7 @@ if __name__ == "__main__":
 		return px,py
 
 	for tam_max in tam_max_tree:
-		for n in list(range(0,10)):
+		for n in list(range(5,10)):
 			px,py = lerBase('airfoil_self_noise.dat')
 			
 			filename = "GP_TreeMax" + str(tam_max) + "_Samples" + str(len(px))

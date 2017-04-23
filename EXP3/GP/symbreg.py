@@ -216,7 +216,7 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [5,10,17]
+	tam_max_tree = [68]
 
 	def lerBase(nome_arquivo):
 		bd = open(nome_arquivo, 'r').readlines()
@@ -236,7 +236,7 @@ if __name__ == "__main__":
 		return px,py
 
 	for tam_max in tam_max_tree:
-		for n in list(range(0,10)):
+		for n in list(range(0,5)):
 			px,py = lerBase('airfoil_self_noise.dat')
 			
 			filename = "GP_TreeMax" + str(tam_max) + "_Samples" + str(len(px))
