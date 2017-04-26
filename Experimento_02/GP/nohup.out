@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "symbreg.py", line 422, in <module>
-    FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	OPS = ops)
-  File "symbreg.py", line 284, in main
-    fitnesses = list(map(toolbox.evaluate, pop))
-  File "symbreg.py", line 242, in evalSymbReg
-    sqerrors.append((F1 - y)**2)
-OverflowError: int too large to convert to float
