@@ -18,9 +18,8 @@ structure = [(1,0,0,25), 	(1,0,0,50), 		(1,0,0,75), 		(1,0,0,100),
 			(4,4,10,25), 	(4,4,20,50), 		(4,4,30,75), 		(4,4,50,125), 	(4,4,100,250),	
 			(5,1,20,40), 	(5,1,100,200), 		(5,1,200,400), 		(5,1,400,800), 	(5,1,800,1600)]
 
-structure = [(1,0,0,25), (2,1,10,1000),(3,1,50,300),(4,4,10,25),(5,1,20,40)]
-
 for FUNC, step, scale, nsamples, in structure:
+	TRAIN_TAM = int(nsamples*0.7)
 	for ALEA in [True, False]:
 		arq = 0
 		for param in ran:
@@ -123,10 +122,10 @@ for FUNC, step, scale, nsamples, in structure:
 					px5t = list(np.random.uniform(-0.25, 6.35, 5000))
 
 					x_train = np.array(list(zip(px1,px2,px3,px4,px5)), dtype = 'float32')
-					y_train = np.array([f(x1,x2,x3,x4,x5) for x1,x2,x3,x4,x5 in pIn_train], dtype = 'float32')
+					y_train = np.array([f(x1,x2,x3,x4,x5) for x1,x2,x3,x4,x5 in x_train], dtype = 'float32')
 
 					x_test = np.array(list(zip(px1t,px2t,px3t,px4t,px5t)), dtype = 'float32')
-					y_test = np.array([f(x1,x2,x3,x4,x5) for x1,x2,x3,x4,x5 in pIn_test], dtype = 'float32')
+					y_test = np.array([f(x1,x2,x3,x4,x5) for x1,x2,x3,x4,x5 in x_test], dtype = 'float32')
 
 				if FUNC == 4:
 					flag = "FUNC_4"
@@ -183,10 +182,10 @@ for FUNC, step, scale, nsamples, in structure:
 				start = time.time()
 
 				feature_columns = tf.contrib.learn.infer_real_valued_columns_from_input(x_train)
-				regressor = tf.contrib.learn.DNNRegressor(feature_columns=feature_columns, hidden_units=param[0])
+				regressor = tf.contrib.learn.DNNRegressor(feature_columns=feature_columns, hidden_units=param[0], activation_fn = tf.nn.sigmoid)
 
 				# Fit
-				regressor.fit(x = x_train, y = y_train, steps = 1000, batch_size = 32, input_fn = None, monitors = None, max_steps = None, activation_fn = tf.nn.sigmoid)
+				regressor.fit(x = x_train, y = y_train, steps = 1000, batch_size = 32, input_fn = None, monitors = None, max_steps = None)
 
 				y_predicted = list(regressor.predict(x_test, as_iterable=True))
 				score = metrics.mean_squared_error(y_predicted, y_test)
