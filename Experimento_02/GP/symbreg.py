@@ -32,12 +32,6 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 		else:
 			return math.log(x)
 
-	def p_pow(x,y):
-		if (x > 1000) & (y > 10):
-			return 1e30
-		else: 
-			return x**y
-
 	if FUNC == 1:
 		flag = "FUNC_1"
 
@@ -51,7 +45,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 
 		pset = gp.PrimitiveSet("MAIN", 1)
 		if OPS:
-			pset.addPrimitive(p_pow, 2)
+			pset.addPrimitive(math.sin, 1)
 		else:
 			flag += "_Reduzido"
 
@@ -117,7 +111,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 
 		pset = gp.PrimitiveSet("MAIN", 5)
 		if OPS:
-			pset.addPrimitive(p_pow, 2)
+			pset.addPrimitive(math.sin, 1)
 		else:
 			flag += "_Reduzido"
 
@@ -179,7 +173,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 		pset = gp.PrimitiveSet("MAIN", 2)
 
 		if OPS:
-			pset.addPrimitive(p_pow, 2)
+			pset.addPrimitive(math.sin, 1)
 		else:
 			flag += "_Reduzido"		
 
@@ -391,10 +385,10 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 	hof = []
 
 if __name__ == "__main__":
-	NGEN = 3
+	NGEN = 300
 	CXPB = .85
 	MUTPB = .15
-	NPOP = 3
+	NPOP = 300
 	train_percent = 0.7
 
 	tam_max_tree = [5, 10, 17, 34, 68]
@@ -418,5 +412,5 @@ if __name__ == "__main__":
 							filename += "_OP"
 
 						main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
-								NPOP = NPOP, 	train_percent = train_percent, 			verb = True,	FILE_NAME = filename, 	
+								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
 								FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	OPS = ops)
