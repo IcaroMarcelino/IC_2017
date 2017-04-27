@@ -1,1 +1,0 @@
-add(add(add(add(add(2, 2), cos(x4)), add(cos(x4), cos(x4))), add(add(add(2, 2), cos(x4)), add(add(2, x4), cos(x4)))), add(add(add(cos(x4), cos(x4)), add(add(2, 2), cos(x4))), add(add(add(2, 2), cos(x4)), add(add(2, x4), cos(x4)))))

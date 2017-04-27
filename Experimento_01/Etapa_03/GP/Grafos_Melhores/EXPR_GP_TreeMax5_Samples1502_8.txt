@@ -1,1 +1,0 @@
-add(add(add(add(add(x4, 2), add(2, 2)), add(add(2, 2), add(2, 2))), div(add(add(2, 2), add(2, 2)), sin(sin(x4)))), add(div(cos(x4), sin(div(2, x4))), add(add(add(x4, 2), cos(x4)), sin(x4))))

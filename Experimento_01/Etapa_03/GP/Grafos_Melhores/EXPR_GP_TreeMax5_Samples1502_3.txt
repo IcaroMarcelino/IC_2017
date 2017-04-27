@@ -1,1 +1,0 @@
-add(mul(add(cos(neg(x4)), 2), add(add(add(2, 2), cos(x3)), add(sin(x4), add(x4, 2)))), add(mul(add(add(2, 2), add(2, 2)), add(sin(x4), sin(x4))), mul(add(add(2, 2), add(2, 2)), add(sin(x4), sin(x4)))))
