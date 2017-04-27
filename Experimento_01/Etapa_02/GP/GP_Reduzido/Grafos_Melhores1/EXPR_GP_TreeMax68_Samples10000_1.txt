@@ -1,1 +1,0 @@
-add(mul(y, 1), sub(2, y))

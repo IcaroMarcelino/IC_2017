@@ -1,1 +1,0 @@
-sub(add(sin(cos(cos(y))), sin(cos(cos(x)))), div(add(cos(y), cos(x)), 2))

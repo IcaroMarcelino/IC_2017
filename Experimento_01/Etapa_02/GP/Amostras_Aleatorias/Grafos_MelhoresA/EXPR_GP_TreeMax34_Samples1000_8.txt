@@ -1,1 +1,0 @@
-add(sub(cos(mul(sub(cos(mul(sub(cos(sub(cos(sub(cos(1), cos(2))), cos(2))), cos(2)), 1)), cos(2)), 1)), cos(2)), 1)

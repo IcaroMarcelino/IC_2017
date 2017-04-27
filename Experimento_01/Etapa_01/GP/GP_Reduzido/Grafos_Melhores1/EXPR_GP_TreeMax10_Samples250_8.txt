@@ -1,1 +1,0 @@
-add(div(div(neg(neg(2)), add(div(div(2, mul(y, y)), div(div(mul(x, x), neg(neg(2))), 2)), div(2, 2))), add(div(1, div(1, 1)), div(div(1, 2), div(1, div(1, div(1, 2)))))), 1)

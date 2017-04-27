@@ -1,1 +1,0 @@
-add(cos(add(cos(x), cos(1))), cos(div(cos(cos(x)), neg(y))))

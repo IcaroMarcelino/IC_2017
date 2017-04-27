@@ -1,1 +1,0 @@
-add(cos(sub(cos(cos(add(x, 1))), cos(1))), 1)

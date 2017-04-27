@@ -1,1 +1,0 @@
-sub(2, div(add(1, div(2, div(2, 2))), add(add(mul(x, x), mul(x, x)), 2)))

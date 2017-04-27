@@ -1,1 +1,0 @@
-add(add(div(1, 2), cos(1)), div(1, 1))

@@ -1,1 +1,0 @@
-add(sub(1, cos(2)), cos(cos(div(1, x))))

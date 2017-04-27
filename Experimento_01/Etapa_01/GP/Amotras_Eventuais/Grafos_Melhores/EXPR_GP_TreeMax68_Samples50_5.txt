@@ -1,1 +1,0 @@
-add(cos(sub(cos(x), neg(cos(cos(sub(sub(cos(cos(x)), cos(sub(cos(cos(sub(sub(cos(cos(cos(cos(x)))), cos(2)), cos(2)))), sub(cos(sub(x, cos(sub(1, sub(x, 1))))), neg(1))))), cos(sub(cos(cos(sub(cos(x), neg(cos(x))))), 2)))))))), cos(sub(1, cos(sub(1, cos(sub(sub(2, sub(y, 2)), cos(cos(neg(y))))))))))

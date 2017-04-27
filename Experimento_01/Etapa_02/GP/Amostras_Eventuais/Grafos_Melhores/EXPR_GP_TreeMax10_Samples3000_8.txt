@@ -1,1 +1,0 @@
-add(sin(sub(sin(sub(sin(sub(sin(div(mul(1, x), sin(x))), neg(sin(2)))), neg(sin(sin(1))))), neg(1))), 1)

@@ -1,1 +1,0 @@
-add(1, sin(add(sin(sin(add(div(x, add(sin(neg(x)), x)), sin(add(2, sin(neg(x))))))), sin(add(1, sin(div(mul(2, y), add(sin(neg(x)), x))))))))

@@ -1,1 +1,0 @@
-add(div(div(div(add(1, 1), 1), 2), add(1, div(2, mul(x, x)))), 1)

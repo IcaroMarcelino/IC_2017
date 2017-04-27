@@ -1,1 +1,0 @@
-add(2, sin(add(cos(add(2, 1)), 1)))

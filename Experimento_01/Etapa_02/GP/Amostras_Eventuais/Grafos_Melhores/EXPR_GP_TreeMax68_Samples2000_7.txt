@@ -1,1 +1,0 @@
-add(1, div(div(sub(mul(1, 2), sin(1)), 1), sub(mul(1, 2), sin(2))))

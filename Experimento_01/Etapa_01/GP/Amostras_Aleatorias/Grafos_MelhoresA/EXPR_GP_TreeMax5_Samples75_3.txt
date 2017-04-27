@@ -1,1 +1,0 @@
-add(cos(div(cos(cos(x)), x)), cos(div(div(cos(1), y), mul(1, mul(1, y)))))

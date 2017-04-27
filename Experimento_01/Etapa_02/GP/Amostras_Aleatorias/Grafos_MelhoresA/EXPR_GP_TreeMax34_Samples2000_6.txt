@@ -1,1 +1,0 @@
-add(cos(sub(sin(2), cos(sub(cos(sin(y)), 1)))), 1)

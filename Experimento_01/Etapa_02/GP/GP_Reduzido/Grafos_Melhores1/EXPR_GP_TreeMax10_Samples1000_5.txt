@@ -1,1 +1,0 @@
-add(sub(mul(mul(mul(x, sub(x, sub(x, 1))), mul(sub(mul(1, 1), sub(x, 1)), 1)), mul(sub(x, sub(mul(x, mul(sub(x, sub(x, 1)), sub(x, sub(x, 1)))), 1)), sub(x, sub(mul(x, mul(sub(x, sub(x, 1)), sub(x, sub(x, 1)))), 1)))), sub(x, sub(mul(mul(mul(x, x), 1), mul(1, div(2, 2))), sub(x, sub(x, sub(x, mul(1, sub(x, sub(x, 1))))))))), 1)

@@ -1,1 +1,0 @@
-div(sub(sub(add(1, 1), x), neg(x)), 1)

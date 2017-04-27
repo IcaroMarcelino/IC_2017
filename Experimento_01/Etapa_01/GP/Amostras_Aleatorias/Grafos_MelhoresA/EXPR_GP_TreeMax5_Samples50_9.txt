@@ -1,1 +1,0 @@
-add(cos(div(sin(2), y)), cos(div(sin(y), x)))

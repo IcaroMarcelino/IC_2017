@@ -1,1 +1,0 @@
-add(cos(div(sin(mul(neg(mul(neg(2), cos(cos(1)))), sin(y))), y)), cos(div(sin(x), mul(x, cos(div(sin(cos(neg(x))), 1))))))

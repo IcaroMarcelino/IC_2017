@@ -1,1 +1,0 @@
-add(div(sin(2), sin(div(1, div(sin(div(2, div(sin(sin(2)), sin(1)))), sin(div(sin(sin(2)), sin(sin(sin(2))))))))), 1)
