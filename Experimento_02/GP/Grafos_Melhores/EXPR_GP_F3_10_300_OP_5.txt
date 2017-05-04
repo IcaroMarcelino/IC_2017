@@ -1,0 +1,1 @@
+sin(sin(sin(sin(sin(p_div(add(x5, add(add(1, x5), add(add(2, x5), x5))), add(add(add(2, add(2, 2)), sub(sin(1), neg(1))), 2)))))))

@@ -1,0 +1,1 @@
+add(sin(mul(2, cos(sin(add(sin(sub(1, neg(sin(2)))), add(sin(sub(1, add(x2, x2))), x1)))))), cos(p_div(sin(p_div(sin(x2), p_div(cos(2), add(sin(add(x2, x2)), p_div(neg(2), cos(1)))))), sub(1, x2))))

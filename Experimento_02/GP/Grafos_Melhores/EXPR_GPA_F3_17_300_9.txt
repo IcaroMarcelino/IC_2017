@@ -1,0 +1,1 @@
+p_div(p_div(p_div(2, 2), neg(sub(p_div(p_div(p_div(p_div(neg(sub(p_div(p_div(1, x5), x4), 2)), neg(sub(p_div(p_div(p_div(p_div(x5, 2), p_div(2, neg(sub(2, sub(1, x4))))), 2), neg(sub(p_div(p_div(1, 2), x4), 2))), 2))), p_div(2, neg(sub(p_div(p_div(2, x3), add(p_div(p_div(2, p_div(2, 2)), 2), add(neg(sub(p_div(x4, 2), 2)), x2))), 2)))), 2), 1), 2))), p_div(2, 2))

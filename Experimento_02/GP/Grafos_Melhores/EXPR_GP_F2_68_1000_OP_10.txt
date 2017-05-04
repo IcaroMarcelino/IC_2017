@@ -1,0 +1,1 @@
+add(p_div(sub(cos(mul(sub(cos(neg(sub(cos(1), cos(2)))), cos(2)), p_div(1, 1))), cos(2)), 1), 1)

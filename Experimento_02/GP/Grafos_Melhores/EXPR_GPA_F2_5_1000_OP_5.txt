@@ -1,0 +1,1 @@
+add(1, mul(cos(p_div(p_div(1, x1), sin(1))), cos(p_div(p_div(1, x1), add(1, x1)))))

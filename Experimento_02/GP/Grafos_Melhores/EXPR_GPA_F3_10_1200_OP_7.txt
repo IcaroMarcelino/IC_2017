@@ -1,0 +1,1 @@
+sin(sin(p_div(sin(sin(sin(sin(sin(sin(sin(2))))))), p_div(sin(sin(1)), sin(p_div(sin(p_div(sin(sin(2)), p_div(sin(2), sub(1, 1)))), sin(p_div(sub(1, 1), 1))))))))

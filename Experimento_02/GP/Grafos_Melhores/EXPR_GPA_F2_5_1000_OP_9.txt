@@ -1,0 +1,1 @@
+add(p_div(cos(p_div(cos(1), add(1, 1))), cos(p_div(cos(x1), 2))), p_div(cos(p_div(cos(1), add(2, x1))), cos(p_div(cos(x1), add(1, 1)))))
