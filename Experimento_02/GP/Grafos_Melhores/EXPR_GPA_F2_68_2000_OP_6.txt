@@ -1,0 +1,1 @@
+add(1, cos(sub(cos(cos(mul(mul(sub(1, sin(x1)), 1), 1))), cos(sub(cos(mul(cos(p_div(cos(2), p_div(1, 2))), p_div(mul(cos(sub(cos(1), cos(2))), mul(1, 1)), mul(mul(1, cos(neg(x1))), 2)))), 1)))))

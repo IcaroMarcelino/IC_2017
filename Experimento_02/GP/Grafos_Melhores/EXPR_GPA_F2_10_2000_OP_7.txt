@@ -1,0 +1,1 @@
+add(cos(sub(sin(cos(p_div(sub(cos(x2), 1), mul(cos(x1), mul(x2, 1))))), cos(sub(cos(p_div(sub(cos(x2), 2), x1)), cos(sub(cos(x2), sin(p_div(add(x1, x1), mul(1, x1))))))))), cos(sub(sin(cos(p_div(cos(p_div(1, x1)), x1))), cos(sub(cos(p_div(p_div(sin(x2), x1), x1)), cos(neg(cos(p_div(1, x1)))))))))
