@@ -420,28 +420,9 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [68]
+	tam_max_tree = [5, 10, 17, 34, 68]
 
-	param = [(3,1,200,1200)]
-
-	for funcao,step_,scale_,nsamples_ in param:
-		for alea in [False]:
-			for ops in [False]:
-				for tam_max in tam_max_tree:
-					for n in list(range(2,10)):
-			
-						if alea:
-							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) 
-						else:
-							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_)  
-						if ops:
-							filename += "_OP"
-
-						main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
-								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
-								FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	OPS = ops)
-
-	param = [(3,1,400,2400), 	(3,1,800,4800), (3,1,1600,9600)]
+	param = [(5,1,20,40), 	(5,1,100,200), 		(5,1,200,400), 		(5,1,400,800), 	(5,1,800,1600)]
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [True, False]:
