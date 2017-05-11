@@ -1,1 +1,0 @@
-mul(2, sin(sin(p_div(2, p_div(2, 2)))))

@@ -1,1 +1,0 @@
-sub(sub(sin(sin(2)), neg(1)), p_div(sin(sin(sin(x2))), p_div(mul(x2, x2), sin(sin(x2)))))

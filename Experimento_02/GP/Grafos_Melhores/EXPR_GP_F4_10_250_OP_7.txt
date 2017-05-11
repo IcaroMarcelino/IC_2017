@@ -1,1 +1,0 @@
-add(sin(p_div(2, add(p_div(mul(p_div(2, mul(x1, x2)), mul(2, 2)), mul(x1, x2)), add(p_div(sin(2), mul(x2, x2)), add(p_div(mul(p_div(1, mul(x1, 1)), p_div(2, mul(x1, x1))), mul(x1, 2)), 1))))), sin(neg(neg(2))))
