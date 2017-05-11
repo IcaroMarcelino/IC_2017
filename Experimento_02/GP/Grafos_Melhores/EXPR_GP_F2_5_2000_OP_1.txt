@@ -1,0 +1,1 @@
+add(cos(add(neg(sin(2)), cos(sin(x1)))), cos(add(neg(sin(2)), sin(2))))

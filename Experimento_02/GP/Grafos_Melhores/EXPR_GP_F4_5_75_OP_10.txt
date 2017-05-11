@@ -1,0 +1,1 @@
+add(mul(sin(add(sub(x1, 1), sin(x1))), add(p_div(1, 2), sub(x1, x1))), sub(2, mul(sin(sin(1)), mul(sin(2), sub(2, 1)))))

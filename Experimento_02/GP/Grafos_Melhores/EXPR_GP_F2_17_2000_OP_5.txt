@@ -1,0 +1,1 @@
+add(1, cos(mul(sub(cos(cos(x1)), 1), mul(cos(mul(neg(2), neg(x1))), 1))))

@@ -1,0 +1,1 @@
+sub(add(p_div(add(cos(p_div(p_div(1, 1), sub(p_div(p_div(1, 1), 1), 1))), cos(p_div(1, p_div(1, 1)))), p_div(1, 1)), 2), p_div(p_div(1, sin(p_div(p_div(p_div(1, 1), p_div(1, 1)), sin(p_div(p_div(p_div(1, 1), cos(1)), sin(2)))))), p_div(1, 1)))

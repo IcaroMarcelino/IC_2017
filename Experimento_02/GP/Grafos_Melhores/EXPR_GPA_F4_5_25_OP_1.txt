@@ -1,0 +1,1 @@
+add(p_div(2, add(sin(add(1, 1)), 1)), sin(sin(p_div(neg(x1), sub(1, x1)))))

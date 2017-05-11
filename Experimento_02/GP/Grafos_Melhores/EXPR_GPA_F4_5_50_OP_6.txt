@@ -1,0 +1,1 @@
+add(sin(mul(2, sin(sin(1)))), mul(sin(sin(mul(2, 1))), sin(1)))

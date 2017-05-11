@@ -1,0 +1,1 @@
+add(1, cos(mul(p_div(cos(add(1, x2)), neg(2)), cos(x1))))

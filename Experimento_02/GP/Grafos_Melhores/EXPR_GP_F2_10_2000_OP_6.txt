@@ -1,0 +1,1 @@
+add(add(cos(cos(cos(add(add(cos(1), cos(1)), cos(cos(mul(cos(2), mul(2, x2)))))))), cos(cos(cos(add(add(cos(1), cos(1)), cos(cos(p_div(sub(1, x2), x1)))))))), cos(cos(add(cos(cos(mul(p_div(1, sub(sin(1), sub(x2, x1))), add(x2, x1)))), cos(add(cos(cos(cos(add(x1, x2)))), cos(add(cos(1), sub(p_div(x1, x2), sub(2, x1))))))))))

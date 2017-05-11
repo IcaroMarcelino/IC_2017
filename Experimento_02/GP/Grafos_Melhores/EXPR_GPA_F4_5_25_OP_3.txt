@@ -1,0 +1,1 @@
+neg(sub(p_div(p_div(p_div(1, x2), mul(1, 2)), sub(2, sin(x2))), add(sin(mul(1, 2)), 1)))

@@ -1,0 +1,1 @@
+sub(2, p_div(sin(sin(sin(x1))), sub(sin(sin(1)), sub(sin(1), x1))))

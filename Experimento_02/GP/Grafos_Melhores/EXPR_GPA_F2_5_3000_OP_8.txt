@@ -1,0 +1,1 @@
+add(sin(add(cos(cos(x1)), 1)), sub(2, sin(add(sin(1), cos(1)))))
