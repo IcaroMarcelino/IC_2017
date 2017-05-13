@@ -1,0 +1,1 @@
+mul(p_div(sin(sin(sin(1))), sin(add(p_div(1, 1), p_div(1, 1)))), p_div(sin(sin(sin(1))), sin(add(1, 1))))
