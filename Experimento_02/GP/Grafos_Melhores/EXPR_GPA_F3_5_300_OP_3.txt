@@ -1,1 +1,1 @@
-sin(p_div(1, p_div(sin(sin(2)), p_div(sin(2), 2))))
+p_div(1, add(sin(sin(add(1, 1))), 1))

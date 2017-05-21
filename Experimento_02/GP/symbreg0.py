@@ -420,15 +420,15 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [5, 10, 17, 34, 68]
+	tam_max_tree = [68]
 
 	param = [(2,1,100,10000)]
 
 	for funcao,step_,scale_,nsamples_ in param:
-		for alea in [True]:
-			for ops in [False]:
+		for alea in [False]:
+			for ops in [True]:
 				for tam_max in tam_max_tree:
-					for n in list(range(0,10)):
+					for n in list(range(4,10)):
 			
 						if alea:
 							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) 
@@ -441,11 +441,12 @@ if __name__ == "__main__":
 								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
 								FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	OPS = ops)
 
+	tam_max_tree = [5,10]
 	param = [(2,1,100,10000)]
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [False]:
-			for ops in [True, False]:
+			for ops in [False]:
 				for tam_max in tam_max_tree:
 					for n in list(range(0,10)):
 			
