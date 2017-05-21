@@ -220,6 +220,8 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 			px = np.random.permutation(px)
 
 		pset.renameArguments(ARG0='x')
+		while 0 in px:
+			px.remove(0)
 
 		pOut = [f(x) for x in px]
 
