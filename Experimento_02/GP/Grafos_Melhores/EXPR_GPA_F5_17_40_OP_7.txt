@@ -1,1 +1,1 @@
-add(p_div(x, add(x, p_div(log(2), p_div(p_div(x, add(p_div(2, add(p_div(2, log(mul(add(1, x), mul(2, 2)))), add(add(mul(mul(add(mul(x, mul(x, sub(2, x))), mul(2, sub(2, x))), x), mul(1, x)), 2), x))), 2)), 1)))), x)
+add(x, p_div(p_ln(add(mul(x, x), 1)), add(x, p_div(add(p_ln(add(p_ln(add(add(x, 2), p_div(add(mul(mul(p_div(mul(mul(x, sub(2, x)), x), p_div(p_div(p_div(1, x), x), x)), 2), mul(x, x)), p_div(1, x)), add(mul(mul(1, x), p_ln(add(mul(neg(x), neg(2)), add(add(x, mul(x, x)), 1)))), mul(add(x, mul(add(1, 1), x)), x))))), 2)), 2), add(2, mul(add(mul(x, x), 1), x))))))

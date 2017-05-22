@@ -208,7 +208,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 		pset = gp.PrimitiveSet("MAIN", 1)
 
 		if OPS:
-			pset.addPrimitive(math.log, 1)
+			pset.addPrimitive(p_ln, 1)
 		else:
 			flag += "_Reduzido"		
 

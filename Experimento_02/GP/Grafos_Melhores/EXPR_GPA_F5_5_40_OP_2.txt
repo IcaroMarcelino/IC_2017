@@ -1,1 +1,1 @@
-mul(log(add(add(x, 2), neg(x))), add(mul(add(add(2, 2), neg(x)), add(add(2, x), neg(2))), mul(neg(x), add(neg(x), 2))))
+mul(p_div(mul(p_div(mul(x, x), x), p_div(mul(x, x), x)), add(neg(1), add(x, 1))), p_ln(add(2, 2)))
