@@ -193,8 +193,11 @@ for FUNC, step, scale, nsamples, in structure:
 
 					pOut = [f(x) for x in px]
 
-					train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
-					test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
+					x_train = np.array(px[:TRAIN_TAM], dtype = 'float32')
+					y_train = np.array(pOut[:TRAIN_TAM], dtype = 'float32')
+
+					x_test = np.array(px[TRAIN_TAM:], dtype = 'float32')
+					y_test = np.array(pOut[TRAIN_TAM:], dtype = 'float32')
 
 				if FUNC == 7:
 					flag = "FUNC_SIN"
@@ -212,9 +215,11 @@ for FUNC, step, scale, nsamples, in structure:
 						px = np.random.permutation(px)
 
 					pOut = [f(x) for x in px]
+					x_train = np.array(px[:TRAIN_TAM], dtype = 'float32')
+					y_train = np.array(pOut[:TRAIN_TAM], dtype = 'float32')
 
-					train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
-					test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
+					x_test = np.array(px[TRAIN_TAM:], dtype = 'float32')
+					y_test = np.array(pOut[TRAIN_TAM:], dtype = 'float32')
 				
 				if FUNC == 8:
 					flag = "FUNC_e-x"
@@ -233,8 +238,11 @@ for FUNC, step, scale, nsamples, in structure:
 
 					pOut = [f(x) for x in px]
 
-					train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
-					test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
+					x_train = np.array(px[:TRAIN_TAM], dtype = 'float32')
+					y_train = np.array(pOut[:TRAIN_TAM], dtype = 'float32')
+
+					x_test = np.array(px[TRAIN_TAM:], dtype = 'float32')
+					y_test = np.array(pOut[TRAIN_TAM:], dtype = 'float32')
 				
 				if FUNC == 9:
 					flag = "FUNC_POL"
@@ -253,9 +261,11 @@ for FUNC, step, scale, nsamples, in structure:
 
 					pOut = [f(x) for x in px]
 
-					train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
-					test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
+					x_train = np.array(px[:TRAIN_TAM], dtype = 'float32')
+					y_train = np.array(pOut[:TRAIN_TAM], dtype = 'float32')
 
+					x_test = np.array(px[TRAIN_TAM:], dtype = 'float32')
+					y_test = np.array(pOut[TRAIN_TAM:], dtype = 'float32')
 				start = time.time()
 
 				feature_columns = tf.contrib.learn.infer_real_valued_columns_from_input(x_train)
