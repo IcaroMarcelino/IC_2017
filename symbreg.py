@@ -231,7 +231,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 		def f(x):
 			return math.log(x)
 
-		lim_inf = 0
+		lim_inf = 0.01
 		lim_sup = 10
 
 		pset = gp.PrimitiveSet("MAIN", 1)

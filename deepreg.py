@@ -181,7 +181,7 @@ for FUNC, step, scale, nsamples, in structure:
 					def f(x):
 						return math.log(x)
 
-					lim_inf = 0
+					lim_inf = 0.01
 					lim_sup = 10
 
 					if ALEA:
