@@ -12,7 +12,7 @@ import time
 
 ran = [[[10,10,10,10,10,10,10,10,10], range(0,10)]]
 
-structure = [(6,5,100,200), (7,9,10,200), (8,1,10,200), (9,2,10,200)]
+structure = [(7,9,10,200), (9,2,10,200)]
 
 
 for FUNC, step, scale, nsamples, in structure:
@@ -202,7 +202,7 @@ for FUNC, step, scale, nsamples, in structure:
 				if FUNC == 7:
 					flag = "FUNC_SIN"
 					def f(x):
-						return math.sin(x)
+						return math.sin(math.radians(x))
 
 					lim_inf = 0
 					lim_sup = 180

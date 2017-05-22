@@ -258,7 +258,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 	if FUNC == 7:
 		flag = "FUNC_SIN"
 		def f(x):
-			return math.sin(x)
+			return math.sin(math.radians(x))
 
 		lim_inf = 0
 		lim_sup = 180
