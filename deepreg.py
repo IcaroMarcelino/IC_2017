@@ -12,7 +12,7 @@ import time
 
 ran = [[[10,10,10,10,10,10,10,10,10], range(0,10)]]
 
-structure = [(7,9,10,200), (9,2,10,200)]
+structure = [(9,2,10,200)]
 
 
 for FUNC, step, scale, nsamples, in structure:
@@ -247,7 +247,7 @@ for FUNC, step, scale, nsamples, in structure:
 				if FUNC == 9:
 					flag = "FUNC_POL"
 					def f(x):
-						return x**10+x**9+x**8+x**7+x**6+x**5+x**4+x**3+x**2+x+1
+						return x**8+x**7+x**6+x**5+x**4+x**3+x**2+x+1
 
 					lim_inf = -20
 					lim_sup = 20
