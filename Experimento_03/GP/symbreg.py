@@ -236,24 +236,10 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 
 		pOut = [f(W,x) for x in px]
 
-		x_train = np.array(px[:TRAIN_TAM], dtype = 'float32')
-		y_train = np.array(pOut[:TRAIN_TAM], dtype = 'float32')
-
-		x_test = np.array(px[TRAIN_TAM:], dtype = 'float32')
-		y_test = np.array(pOut[TRAIN_TAM:], dtype = 'float32')
-
 		pset = gp.PrimitiveSet("MAIN", 1)
-
-		if ALEA:
-			flag += "_Alea"
-			px = list(np.random.uniform(lim_inf,lim_sup,nsamples))
-		else:	
-			px = [x*(1/scale) for x in list(range(int(lim_inf*scale), int(lim_sup*scale), step))]
-			px = np.random.permutation(px)
-
 		pset.renameArguments(ARG0='x')
 
-		pOut = [f(x) for x in px]
+		pOut = [f(W,x) for x in px]
 
 		train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
 		test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
