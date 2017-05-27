@@ -205,23 +205,24 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 			flag = "SIN"
 			def f(W, x):
 				return math.sin(W*x)
-		if trig == 1:
+		if trig == 2:
 			flag = "COS"
 			def f(W, x):
 				return math.cos(W*x)
-		if trig == 1:
+		if trig == 3:
 			flag = "TAN"
 			def f(W, x):
 				return math.tan(W*x)
-		if trig == 1:
+		if trig == 4:
 			flag = "SEC"
 			def f(W, x):
 				return 1/math.cos(W*x)
-		if trig == 1:
+		if trig == 5:
 			flag = "COSSEC"
 			def f(W, x):
 				lim_inf = 0.001
 				return 1/math.sin(W*x)
+									
 									
 		if ALEA:
 			flag += "_Alea"
@@ -460,16 +461,15 @@ if __name__ == "__main__":
 		for alea in [True, False]:
 			for W in [1,5,25,125]:
 				for tam_max in tam_max_tree:
-					for n in list(range(0,10)):
-			
-						if alea:
-							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W)
-						else:
-							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W) 
-						if ops:
-							filename += "_OP"
+					for t in [1,2,3,4,5]:
+						for n in list(range(0,10)):
+				
+							if alea:
+								filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W)
+							else:
+								filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W) 
 
-						main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
-								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
-								FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	
-								OPS = False, W = W)
+							main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
+									NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
+									FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	
+									OPS = False, W = W, trig = t)
