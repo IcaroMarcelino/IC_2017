@@ -235,7 +235,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 			if elem > 1e6:
 				px.remove(elem)
 
-		pOut = [f(x) for x in px]
+		pOut = [f(W,x) for x in px]
 
 		x_train = np.array(px[:TRAIN_TAM], dtype = 'float32')
 		y_train = np.array(pOut[:TRAIN_TAM], dtype = 'float32')
