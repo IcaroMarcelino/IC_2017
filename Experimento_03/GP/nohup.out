@@ -2,3 +2,17 @@ Traceback (most recent call last):
   File "symbreg.py", line 475, in <module>
     OPS = ops, W = W)
 NameError: name 'W' is not defined
+Traceback (most recent call last):
+  File "symbreg.py", line 469, in <module>
+    if ops:
+NameError: name 'ops' is not defined
+Traceback (most recent call last):
+  File "symbreg1.py", line 469, in <module>
+    if ops:
+NameError: name 'ops' is not defined
+Traceback (most recent call last):
+  File "symbreg1.py", line 473, in <module>
+    OPS = False, W = W)
+  File "symbreg1.py", line 204, in main
+    if trig == 1:
+NameError: name 'trig' is not defined

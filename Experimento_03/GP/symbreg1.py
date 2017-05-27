@@ -466,8 +466,6 @@ if __name__ == "__main__":
 							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W)
 						else:
 							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W)
-						if ops:
-							filename += "_OP"
 
 						main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
 								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
