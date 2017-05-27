@@ -237,12 +237,6 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 
 		pOut = [f(W,x) for x in px]
 
-		x_train = np.array(px[:TRAIN_TAM], dtype = 'float32')
-		y_train = np.array(pOut[:TRAIN_TAM], dtype = 'float32')
-
-		x_test = np.array(px[TRAIN_TAM:], dtype = 'float32')
-		y_test = np.array(pOut[TRAIN_TAM:], dtype = 'float32')
-
 		pset = gp.PrimitiveSet("MAIN", 1)
 		pset.renameArguments(ARG0='x')
 
