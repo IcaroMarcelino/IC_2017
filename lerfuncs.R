@@ -2,7 +2,7 @@ ler <- function(arq){
   f <- read.csv(arq, header = FALSE, quote="")
   f <- f[which(f[5] != Inf), ]
   f <- f[which(f[5] != 'NaN'), ]
-  f <- abs(as.numeric(unlist(f[5])))
+  f <- abs(as.numeric(unlist(f[5])))*100
 
   return(f)
 }
@@ -44,7 +44,9 @@ ex_dla <- ler(lista_arq[12])
 #pol_dl  <- ler(lista_arq[15])
 #pol_dla <- ler(lista_arq[16]) 
 
-boxplot(c(sin_gp,sin_gpa), c(log_gp,log_gpa), c(ex_gp,ex_gpa), border = "dark green", ylim=c(0,10), ylab = "Erro Percentual(%)", names = c("sin(X)", "log(x)", "exp(-x)"))
+boxplot(c(sin_gp,sin_gpa), c(log_gp,log_gpa), c(ex_gp,ex_gpa), border = "dark green", ylab = "Erro Percentual(%)", names = c("sin(X)", "log(x)", "exp(-x)"))
 boxplot(c(sin_dl,sin_dla), c(log_dl,log_dla), c(ex_dl,ex_dla), add = TRUE, border = "orange", names = c("","",""))
+legend("topleft", legend=c("Genetic Programming", "Deep Learning"),
+       fill=c("dark green", "orange"), bty="n")
 
 remove(sin_gp, sin_dl, sin_gpa, sin_dla, log_gp,log_gpa, ex_gp,ex_gpa, log_dl,log_dla, ex_dl,ex_dla)
