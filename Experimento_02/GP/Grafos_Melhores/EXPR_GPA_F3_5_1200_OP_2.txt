@@ -1,1 +1,1 @@
-mul(sin(2), sin(mul(mul(sin(2), sin(2)), sin(sin(2)))))
+sin(mul(sin(sin(sin(2))), sin(sub(add(2, 1), sin(1)))))
