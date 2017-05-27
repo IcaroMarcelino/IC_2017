@@ -22,9 +22,9 @@ for FUNC, step, scale, nsamples, in structure:
 				for i in param[1]:
 
 					if ALEA:
-						filename = "DLA_F" + str(FUNC) + "_" + str(len(param[0])) + "_" + str(nsamples) 
+						filename = "DLA_F" + str(FUNC) + "_" + str(len(param[0])) + "_" + str(nsamples) + "Freq" + str(W)
 					else:
-						filename = "DL_F" + str(FUNC) + "_" + str(len(param[0])) + "_" + str(nsamples)  
+						filename = "DL_F" + str(FUNC) + "_" + str(len(param[0])) + "_" + str(nsamples) + "Freq" + str(W)
 							
 					if FUNC == 1:
 						flag = "FUNC_1"
@@ -156,23 +156,23 @@ for FUNC, step, scale, nsamples, in structure:
 						lim_sup = 2*math.pi
 
 						if trig == 1:
-							flag = "SIN"
+							flag = "SIN_F" + str(W)
 							def f(W, x):
 								return math.sin(W*x)
 						if trig == 1:
-							flag = "COS"
+							flag = "COS_F" + str(W)
 							def f(W, x):
 								return math.cos(W*x)
 						if trig == 1:
-							flag = "TAN"
+							flag = "TAN_F" + str(W)
 							def f(W, x):
 								return math.tan(W*x)
 						if trig == 1:
-							flag = "SEC"
+							flag = "SEC_F" + str(W)
 							def f(W, x):
 								return 1/math.cos(W*x)
 						if trig == 1:
-							flag = "COSSEC"
+							flag = "COSSEC_F" + str(W)
 							def f(W, x):
 								lim_inf = 0.001
 								return 1/math.sin(W*x)

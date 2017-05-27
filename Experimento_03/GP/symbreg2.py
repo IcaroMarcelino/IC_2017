@@ -458,18 +458,18 @@ if __name__ == "__main__":
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [True, False]:
-			for ops in [True, False]:
+			for W in [1,5,25,125]:
 				for tam_max in tam_max_tree:
 					for n in list(range(0,10)):
 			
 						if alea:
-							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) 
+							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W) 
 						else:
-							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_)  
+							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W)  
 						if ops:
 							filename += "_OP"
 
 						main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
 								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
 								FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	
-								OPS = ops, W = W)
+								OPS = False, W = W)

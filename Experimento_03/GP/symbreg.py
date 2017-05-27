@@ -463,9 +463,9 @@ if __name__ == "__main__":
 					for n in list(range(0,10)):
 			
 						if alea:
-							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) 
+							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W)
 						else:
-							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_)  
+							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W)
 						if ops:
 							filename += "_OP"
 
