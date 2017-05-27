@@ -17,7 +17,7 @@ import numpy as np
 import time
 import csv
 
-def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME, FUNC, ALEA, step, scale, nsamples, OPS, W):
+def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME, FUNC, ALEA, step, scale, nsamples, OPS, W, trig):
 	TRAIN_TAM = int(train_percent*nsamples)
 
 	def p_div(left, right):
