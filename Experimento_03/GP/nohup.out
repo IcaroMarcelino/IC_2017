@@ -36,3 +36,68 @@ Traceback (most recent call last):
   File "symbreg.py", line 256, in <listcomp>
     pOut = [f(x) for x in px]
 TypeError: f() missing 1 required positional argument: 'x'
+Traceback (most recent call last):
+  File "symbreg.py", line 461, in <module>
+    OPS = False, W = W, trig = t)
+  File "symbreg.py", line 247, in main
+    filename += flag
+UnboundLocalError: local variable 'filename' referenced before assignment
+Traceback (most recent call last):
+  File "symbreg1.py", line 460, in <module>
+    OPS = False, W = W, trig = t)
+  File "symbreg1.py", line 246, in main
+    filename += flag
+UnboundLocalError: local variable 'filename' referenced before assignment
+Traceback (most recent call last):
+  File "symbreg2.py", line 460, in <module>
+    OPS = False, W = W, trig = t)
+  File "symbreg2.py", line 246, in main
+    filename += flag
+UnboundLocalError: local variable 'filename' referenced before assignment
+symbreg3.py:25: RuntimeWarning: divide by zero encountered in double_scalars
+  return left / right
+/root/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:101: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+symbreg3.py:25: RuntimeWarning: invalid value encountered in double_scalars
+  return left / right
+<string>:1: RuntimeWarning: invalid value encountered in double_scalars
+>> Regressao Numerica com GP: 
+>> 350 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 0)
+Traceback (most recent call last):
+  File "symbreg3.py", line 276, in evalSymbReg
+    F1 = f_approx(*x)
+TypeError: <lambda>() argument after * must be an iterable, not numpy.float64
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "symbreg3.py", line 459, in <module>
+    OPS = False, W = W, trig = t)
+  File "symbreg3.py", line 344, in main
+    fitnesses = list(map(toolbox.evaluate, offspring))
+  File "symbreg3.py", line 278, in evalSymbReg
+    F1 = f_approx(x)
+  File "<string>", line 1, in <lambda>
+KeyboardInterrupt
+symbreg3.py:25: RuntimeWarning: divide by zero encountered in double_scalars
+  return left / right
+/root/anaconda3/lib/python3.6/site-packages/numpy/core/_methods.py:101: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+>> Regressao Numerica com GP: 
+>> 350 amostras;tamanho max da arvore: 34
+>> Inicio (Execucao 0)
+Traceback (most recent call last):
+  File "symbreg3.py", line 459, in <module>
+    OPS = False, W = W, trig = t)
+  File "symbreg3.py", line 342, in main
+    offspring = algorithms.varAnd(pop, toolbox, CXPB, MUTPB)
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/algorithms.py", line 74, in varAnd
+    offspring[i])
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 908, in wrapper
+    new_inds = list(func(*args, **kwargs))
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 667, in cxOnePoint
+    ind1[slice1], ind2[slice2] = ind2[slice2], ind1[slice1]
+  File "/root/anaconda3/lib/python3.6/site-packages/deap/gp.py", line 85, in __setitem__
+    list.__setitem__(self, key, val)
+KeyboardInterrupt
