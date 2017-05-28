@@ -440,7 +440,7 @@ if __name__ == "__main__":
 
 	tam_max_tree = [17]
 
-	param = [(5,1,500/(2*math.pi/500),500)]
+	param = [(5,1,500/(2*math.pi),500)]
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [True, False]:

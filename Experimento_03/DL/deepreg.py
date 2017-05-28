@@ -11,7 +11,7 @@ import random
 import time
 
 ran = [[[10,10,10,10,10,10,10,10,10], range(0,10)], [[10,10,10,10,10,10,10], range(10,20)], [[10,10,10,10,10], range(20,30)], [[10,10,10], range(30,40)], [[10], range(40,50)]]
-structure = [(5,1,500/(2*math.pi/500),500)]
+structure = [(5,1,500/(2*math.pi),500)]
 
 for FUNC, step, scale, nsamples, in structure:
 	TRAIN_TAM = int(nsamples*0.7)
@@ -197,7 +197,7 @@ for FUNC, step, scale, nsamples, in structure:
 							x_test = np.array(px[TRAIN_TAM:], dtype = 'float32')
 							y_test = np.array(pOut[TRAIN_TAM:], dtype = 'float32')
 
-						filename += flag
+						filename += "_" + flag
 
 						start = time.time()
 
