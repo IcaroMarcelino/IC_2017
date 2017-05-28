@@ -414,7 +414,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename,
 	info.write(str(TAM_MAX) + ',' + str(len(train_points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ',' +  str(sum(erro_percent)/len(erro_percent)) +  ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	info1 = open("Result_GP_EXP2_" + flag + ".csv", 'a')
-	info1.write(str(TAM_MAX) + ',' + str(len(train_points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ','+  str(sum(erro_percent)/len(erro_percent)) +  ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
+	info1.write(str(TAM_MAX) + ',' + str(len(train_points))+ ',' + str(W) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ','+  str(sum(erro_percent)/len(erro_percent)) +  ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	#nodes, edges, labels = gp.graph(hof[0])
 

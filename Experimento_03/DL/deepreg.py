@@ -219,7 +219,7 @@ for FUNC, step, scale, nsamples, in structure:
 						erro_percent = [abs(y_pred-y_true)/y_true for y_true, y_pred in zip(y_test, y_predicted)]
 
 						info = open("Result_DL_EXP2_RELU_" + flag + ".csv", 'a')
-						info.write(str(arq +1) + ',' + str(nsamples) + ',' + str(i + 1) + ',' + '{0:f}'.format(score) + ',' + str(sum(erro_percent)/len(erro_percent)) + ',' + str(end-start) + '\n')
+						info.write(str(arq +1) + ',' + str(nsamples) + ',' + str(W) + ',' + str(i + 1) + ',' + '{0:f}'.format(score) + ',' + str(sum(erro_percent)/len(erro_percent)) + ',' + str(end-start) + '\n')
 
 						myfile = open("Saidas/SAIDA_RELU_" + filename + str(arq + 1) + "_" + str(i) + ".csv", 'w')
 						wr = csv.writer(myfile)
