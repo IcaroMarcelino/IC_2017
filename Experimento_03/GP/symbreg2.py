@@ -17,7 +17,7 @@ import numpy as np
 import time
 import csv
 
-def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME, FUNC, ALEA, step, scale, nsamples, OPS, W, trig):
+def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename, FUNC, ALEA, step, scale, nsamples, OPS, W, trig):
 	TRAIN_TAM = int(train_percent*nsamples)
 
 	def p_div(left, right):
@@ -455,6 +455,6 @@ if __name__ == "__main__":
 								filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W) 
 
 							main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
-									NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
+									NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	filename = filename, 	
 									FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	
 									OPS = False, W = W, trig = t)
