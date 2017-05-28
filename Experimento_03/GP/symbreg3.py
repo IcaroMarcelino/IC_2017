@@ -243,7 +243,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 		train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
 		test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
 
-
+	filename += flag
 	########## Operator Set #########################################
 	pset.addPrimitive(operator.add, 2)
 	pset.addPrimitive(operator.sub, 2)

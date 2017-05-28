@@ -197,6 +197,8 @@ for FUNC, step, scale, nsamples, in structure:
 							x_test = np.array(px[TRAIN_TAM:], dtype = 'float32')
 							y_test = np.array(pOut[TRAIN_TAM:], dtype = 'float32')
 
+						filename += flag
+
 						start = time.time()
 
 						feature_columns = tf.contrib.learn.infer_real_valued_columns_from_input(x_train)
