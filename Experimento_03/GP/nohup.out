@@ -16,3 +16,23 @@ Traceback (most recent call last):
   File "symbreg1.py", line 204, in main
     if trig == 1:
 NameError: name 'trig' is not defined
+Traceback (most recent call last):
+  File "symbreg.py", line 474, in <module>
+    OPS = False, W = W, trig = t)
+TypeError: main() got an unexpected keyword argument 'trig'
+Traceback (most recent call last):
+  File "symbreg.py", line 474, in <module>
+    OPS = False, W = W, trig = t)
+  File "symbreg.py", line 237, in main
+    pOut = [f(x) for x in px]
+  File "symbreg.py", line 237, in <listcomp>
+    pOut = [f(x) for x in px]
+TypeError: f() missing 1 required positional argument: 'x'
+Traceback (most recent call last):
+  File "symbreg.py", line 474, in <module>
+    OPS = False, W = W, trig = t)
+  File "symbreg.py", line 256, in main
+    pOut = [f(x) for x in px]
+  File "symbreg.py", line 256, in <listcomp>
+    pOut = [f(x) for x in px]
+TypeError: f() missing 1 required positional argument: 'x'
