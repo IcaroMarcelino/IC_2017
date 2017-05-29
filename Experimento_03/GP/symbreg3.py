@@ -445,7 +445,7 @@ if __name__ == "__main__":
 		for alea in [True, False]:
 			for W in [1,5,25,125]:
 				for tam_max in tam_max_tree:
-					for t in [1,2,3]:
+					for t in [1,2]:
 						for n in list(range(0,10)):
 				
 							if alea:

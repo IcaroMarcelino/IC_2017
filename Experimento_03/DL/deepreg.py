@@ -16,7 +16,7 @@ structure = [(5,1,500/(2*math.pi),500)]
 for FUNC, step, scale, nsamples, in structure:
 	TRAIN_TAM = int(nsamples*0.7)
 	for W in [1,5,25,125]:
-		for trig in [1,2,3]:
+		for trig in [1,2]:
 			for ALEA in [True, False]:
 				arq = 0
 				for param in ran:
