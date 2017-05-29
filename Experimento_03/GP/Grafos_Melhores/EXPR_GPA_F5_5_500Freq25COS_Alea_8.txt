@@ -1,0 +1,1 @@
+mul(sub(2, 2), mul(neg(2), x))
