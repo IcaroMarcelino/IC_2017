@@ -289,8 +289,8 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 		def f(x):
 			return math.e**(-x)
 
-		lim_inf = -10
-		lim_sup = 10
+		lim_inf = -6
+		lim_sup = 6
 
 		pset = gp.PrimitiveSet("MAIN", 1)
 
@@ -316,10 +316,10 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 	if FUNC == 9:
 		flag = "FUNC_POL"
 		def f(x):
-			return x**10+x**9+x**8+x**7+x**6+x**5+x**4+x**3+x**2+x+1
+			return x**8+x**7+x**6+x**5+x**4+x**3+x**2+x+1
 
-		lim_inf = -20
-		lim_sup = 20
+		lim_inf = -2
+		lim_sup = 2
 
 		pset = gp.PrimitiveSet("MAIN", 1)
 
@@ -484,7 +484,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 			F1 = float('nan')
 		f_xy_approx.append(F1)
 		mse_final.append((F1-y)**2)
-		erro_percent.append(abs(F1-y)/y)
+		erro_percent.append(abs(F1-y)/abs(y))
 
 	tabela = []
 	count = 0
@@ -538,7 +538,7 @@ if __name__ == "__main__":
 
 	tam_max_tree = [17]
 
-	param = [(6,5,100,200), (7,9,10,200), (8,1,10,200), (9,2,10,200)]
+	param = [(6,1,500/(10-0.01),500), (8,1,500/12,500), (9,1,500/4,500)]
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [True, False]:

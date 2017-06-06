@@ -17,7 +17,7 @@ import numpy as np
 import time
 import csv
 
-def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename, FUNC, ALEA, step, scale, nsamples, OPS, W, trig):
+def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME, FUNC, ALEA, step, scale, nsamples, OPS):
 	TRAIN_TAM = int(train_percent*nsamples)
 
 	def p_div(left, right):
@@ -198,23 +198,20 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename,
 		test_points 	= list(zip(pIn, pOut))[TRAIN_TAM:]
 
 	if FUNC == 5:
-		lim_inf = 0
-		lim_sup = 2*math.pi
+		flag = "FUNC_5"
+		def f(x):
+			return math.log(x + 1) + math.log(1 + x**2)
 
-		if trig == 1:
-			flag = "SIN"
-			def f(W, x):
-				return math.sin(W*x)
-		if trig == 2:
-			flag = "COS"
-			def f(W, x):
-				return math.cos(W*x)
-		if trig == 3:
-			flag = "TAN"
-			def f(W, x):
-				return math.tan(W*x)
-				
-									
+		lim_inf = 0
+		lim_sup = 2
+
+		pset = gp.PrimitiveSet("MAIN", 1)
+
+		if OPS:
+			pset.addPrimitive(p_ln, 1)
+		else:
+			flag += "_Reduzido"		
+
 		if ALEA:
 			flag += "_Alea"
 			px = list(np.random.uniform(lim_inf,lim_sup,nsamples))
@@ -222,18 +219,129 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename,
 			px = [x*(1/scale) for x in list(range(int(lim_inf*scale), int(lim_sup*scale), step))]
 			px = np.random.permutation(px)
 
-		pOut = [f(W,x) for x in px]
-		for elem in pOut:
-			if elem > 1e3:
-				pOut.remove(elem)
-
-		pset = gp.PrimitiveSet("MAIN", 1)
 		pset.renameArguments(ARG0='x')
+
+		pOut = [f(x) for x in px]
 
 		train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
 		test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
 
-	filename += flag
+	if FUNC == 6:
+		flag = "FUNC_LOG"
+		def f(x):
+			return math.log(x)
+
+		lim_inf = 0.01
+		lim_sup = 10
+
+		pset = gp.PrimitiveSet("MAIN", 1)
+
+		if OPS:
+			pset.addPrimitive(p_ln, 1)
+		else:
+			flag += "_Reduzido"		
+
+		if ALEA:
+			flag += "_Alea"
+			px = list(np.random.uniform(lim_inf,lim_sup,nsamples))
+		else:	
+			px = [x*(1/scale) for x in list(range(int(lim_inf*scale), int(lim_sup*scale), step))]
+			px = np.random.permutation(px)
+
+		pset.renameArguments(ARG0='x')
+
+		pOut = [f(x) for x in px]
+
+		train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
+		test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
+
+	if FUNC == 7:
+		flag = "FUNC_SIN"
+		def f(x):
+			return math.sin(math.radians(x))
+
+		lim_inf = 0
+		lim_sup = 180
+
+		pset = gp.PrimitiveSet("MAIN", 1)
+
+		if OPS:
+			pset.addPrimitive(p_ln, 1)
+		else:
+			flag += "_Reduzido"		
+
+		if ALEA:
+			flag += "_Alea"
+			px = list(np.random.uniform(lim_inf,lim_sup,nsamples))
+		else:	
+			px = [x*(1/scale) for x in list(range(int(lim_inf*scale), int(lim_sup*scale), step))]
+			px = np.random.permutation(px)
+
+		pset.renameArguments(ARG0='x')
+
+		pOut = [f(x) for x in px]
+
+		train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
+		test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
+	
+	if FUNC == 8:
+		flag = "FUNC_e-x"
+		def f(x):
+			return math.e**(-x)
+
+		lim_inf = -6
+		lim_sup = 6
+
+		pset = gp.PrimitiveSet("MAIN", 1)
+
+		if OPS:
+			pset.addPrimitive(p_ln, 1)
+		else:
+			flag += "_Reduzido"		
+
+		if ALEA:
+			flag += "_Alea"
+			px = list(np.random.uniform(lim_inf,lim_sup,nsamples))
+		else:	
+			px = [x*(1/scale) for x in list(range(int(lim_inf*scale), int(lim_sup*scale), step))]
+			px = np.random.permutation(px)
+
+		pset.renameArguments(ARG0='x')
+
+		pOut = [f(x) for x in px]
+
+		train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
+		test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
+	
+	if FUNC == 9:
+		flag = "FUNC_POL"
+		def f(x):
+			return x**8+x**7+x**6+x**5+x**4+x**3+x**2+x+1
+
+		lim_inf = -2
+		lim_sup = 2
+
+		pset = gp.PrimitiveSet("MAIN", 1)
+
+		if OPS:
+			pset.addPrimitive(p_ln, 1)
+		else:
+			flag += "_Reduzido"		
+
+		if ALEA:
+			flag += "_Alea"
+			px = list(np.random.uniform(lim_inf,lim_sup,nsamples))
+		else:	
+			px = [x*(1/scale) for x in list(range(int(lim_inf*scale), int(lim_sup*scale), step))]
+			px = np.random.permutation(px)
+
+		pset.renameArguments(ARG0='x')
+
+		pOut = [f(x) for x in px]
+
+		train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
+		test_points 	= list(zip(px, pOut))[TRAIN_TAM:]
+
 
 	########## Operator Set #########################################
 	pset.addPrimitive(operator.add, 2)
@@ -405,7 +513,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename,
 	info.write(str(TAM_MAX) + ',' + str(len(train_points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ',' +  str(sum(erro_percent)/len(erro_percent)) +  ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	info1 = open("Result_GP_EXP2_" + flag + ".csv", 'a')
-	info1.write(str(TAM_MAX) + ',' + str(len(train_points)) + ',' + str(W) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ','+  str(sum(erro_percent)/len(erro_percent)) +  ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
+	info1.write(str(TAM_MAX) + ',' + str(len(train_points)) + ',' +  str(NEXEC + 1) + ',' + str(sum(mse_final)/len(mse_final)) + ','+  str(sum(erro_percent)/len(erro_percent)) +  ',' + str(hof[0].height) + ',' + str(end-start) + '\n')
 
 	#nodes, edges, labels = gp.graph(hof[0])
 
@@ -428,23 +536,23 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [17]
+	tam_max_tree = [10]
 
-	param = [(5,1,500/(2*math.pi),500)]
+	param = [(6,1,500/(10-0.01),500), (8,1,500/12,500), (9,1,500/4,500)]
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [True, False]:
-			for W in [1,5,25,125]:
+			for ops in [False]:
 				for tam_max in tam_max_tree:
-					for t in [1,2,3]:
-						for n in list(range(0,10)):
-				
-							if alea:
-								filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W)
-							else:
-								filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) + "Freq" + str(W) 
+					for n in list(range(0,10)):
+			
+						if alea:
+							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) 
+						else:
+							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_)  
+						if ops:
+							filename += "_OP"
 
-							main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
-									NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	filename = filename, 	
-									FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	
-									OPS = False, W = W, trig = t)
+						main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
+								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
+								FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	OPS = ops)

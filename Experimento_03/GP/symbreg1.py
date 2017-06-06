@@ -213,16 +213,6 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename,
 			flag = "TAN"
 			def f(W, x):
 				return math.tan(W*x)
-		if trig == 4:
-			flag = "SEC"
-			def f(W, x):
-				return 1/math.cos(W*x)
-		if trig == 5:
-			flag = "COSSEC"
-			def f(W, x):
-				lim_inf = 0.001
-				return 1/math.sin(W*x)
-									
 									
 		if ALEA:
 			flag += "_Alea"
@@ -231,11 +221,11 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename,
 			px = [x*(1/scale) for x in list(range(int(lim_inf*scale), int(lim_sup*scale), step))]
 			px = np.random.permutation(px)
 
-		for elem in px:
-			if elem > 1e6:
-				px.remove(elem)
-
 		pOut = [f(W,x) for x in px]
+
+		for elem in pOut:
+			if elem > 1e3:
+				pOut.remove(elem)
 
 		pset = gp.PrimitiveSet("MAIN", 1)
 		pset.renameArguments(ARG0='x')
@@ -386,7 +376,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename,
 			F1 = float('nan')
 		f_xy_approx.append(F1)
 		mse_final.append((F1-y)**2)
-		erro_percent.append(abs(F1-y)/y)
+		erro_percent.append(abs(F1-y)/abs(y))
 
 	tabela = []
 	count = 0
@@ -446,7 +436,7 @@ if __name__ == "__main__":
 		for alea in [True, False]:
 			for W in [1,5,25,125]:
 				for tam_max in tam_max_tree:
-					for t in [1,2]:
+					for t in [1,2,3]:
 						for n in list(range(0,10)):
 				
 							if alea:

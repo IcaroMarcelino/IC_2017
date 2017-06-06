@@ -10,9 +10,9 @@ import csv
 import random
 import time
 
-ran = [[[10,10,10,10,10,10,10,10,10], range(0,10)]]
+ran = [[[10,10,10,10,10,10,10,10,10], range(0,10)], [[10,10,10,10,10,10,10], range(10,20)], [[10,10,10,10,10], range(20,30)], [[10,10,10], range(30,40)], [[10], range(40,50)]]
 
-structure = [(9,2,10,200)]
+structure = [(6,1,500/(10-0.01),500), (8,1,500/12,500), (9,1,500/4,500)]
 
 
 for FUNC, step, scale, nsamples, in structure:
@@ -226,8 +226,8 @@ for FUNC, step, scale, nsamples, in structure:
 					def f(x):
 						return math.e**(-x)
 
-					lim_inf = -10
-					lim_sup = 10
+					lim_inf = -6
+					lim_sup = 6
 
 					if ALEA:
 						flag += "_Alea"
@@ -249,8 +249,8 @@ for FUNC, step, scale, nsamples, in structure:
 					def f(x):
 						return x**8+x**7+x**6+x**5+x**4+x**3+x**2+x+1
 
-					lim_inf = -20
-					lim_sup = 20
+					lim_inf = -2
+					lim_sup = 2
 
 					if ALEA:
 						flag += "_Alea"
@@ -283,7 +283,7 @@ for FUNC, step, scale, nsamples, in structure:
 				tabela = list(zip(x_test, y_test, y_predicted))
 				tabela = [("Inputs","f(x,y)", "f*(x,y)")] + tabela
 
-				erro_percent = [abs(y_pred-y_true)/y_true for y_true, y_pred in zip(y_test, y_predicted)]
+				erro_percent = [abs(y_pred-y_true)/abs(y_true) for y_true, y_pred in zip(y_test, y_predicted)]
 
 				info = open("Result_DL_EXP2_RELU_" + flag + ".csv", 'a')
 				info.write(str(arq +1) + ',' + str(nsamples) + ',' + str(i + 1) + ',' + '{0:f}'.format(score) + ',' + str(sum(erro_percent)/len(erro_percent)) + ',' + str(end-start) + '\n')

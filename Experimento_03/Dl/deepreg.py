@@ -16,7 +16,7 @@ structure = [(5,1,500/(2*math.pi),500)]
 for FUNC, step, scale, nsamples, in structure:
 	TRAIN_TAM = int(nsamples*0.7)
 	for W in [1,5,25,125]:
-		for trig in [1,2]:
+		for trig in [1,2,3]:
 			for ALEA in [True, False]:
 				arq = 0
 				for param in ran:
@@ -185,11 +185,12 @@ for FUNC, step, scale, nsamples, in structure:
 								px = [x*(1/scale) for x in list(range(int(lim_inf*scale), int(lim_sup*scale), step))]
 								px = np.random.permutation(px)
 
-							for elem in px:
-								if elem > 1e6:
-									px.remove(elem)
-					
+				
 							pOut = [f(W,x) for x in px]
+
+							for elem in pOut:
+								if elem > 1e3:
+									pOut.remove(elem)
 
 							x_train = np.array(px[:TRAIN_TAM], dtype = 'float32')
 							y_train = np.array(pOut[:TRAIN_TAM], dtype = 'float32')
@@ -216,7 +217,7 @@ for FUNC, step, scale, nsamples, in structure:
 						tabela = list(zip(x_test, y_test, y_predicted))
 						tabela = [("Inputs","f(x,y)", "f*(x,y)")] + tabela
 
-						erro_percent = [abs(y_pred-y_true)/y_true for y_true, y_pred in zip(y_test, y_predicted)]
+						erro_percent = [abs(y_pred-y_true)/abs(y_true) for y_true, y_pred in zip(y_test, y_predicted)]
 
 						info = open("Result_DL_EXP2_RELU_" + flag + ".csv", 'a')
 						info.write(str(arq +1) + ',' + str(nsamples) + ',' + str(W) + ',' + str(i + 1) + ',' + '{0:f}'.format(score) + ',' + str(sum(erro_percent)/len(erro_percent)) + ',' + str(end-start) + '\n')

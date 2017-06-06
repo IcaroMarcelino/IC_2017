@@ -91,7 +91,7 @@ dlsa_f5 <- dlsa_f5[which(dlsa_f5[5] != 'NaN'), ]
 remove(dlsa_f1, dlsa_f2, dlsa_f3, dlsa_f4, dlsa_f5)
 
 #GP
-gp_f1 <- read.csv("GP/Result_GP_EXP2_FUNC_4.csv", quote ="", header=FALSE)
+gp_f1 <- read.csv("GP/Result_GP_EXP2_FUNC_1.csv", quote ="", header=FALSE)
 gp_f1 <- gp_f1[which(gp_f1[5] != Inf), ]
 gp_f1 <- gp_f1[which(gp_f1[5] != 'NaN'), ]
 
@@ -99,11 +99,11 @@ gp_f2 <- read.csv("GP/Result_GP_EXP2_FUNC_2.csv", quote ="", header=FALSE)
 gp_f2 <- gp_f2[which(gp_f2[5] != Inf), ]
 gp_f2 <- gp_f2[which(gp_f2[5] != 'NaN'), ]
 
-gp_f3 <- read.csv("GP/Result_GP_EXP2_FUNC_1.csv", quote ="", header=FALSE)
+gp_f3 <- read.csv("GP/Result_GP_EXP2_FUNC_3.csv", quote ="", header=FALSE)
 gp_f3 <- gp_f3[which(gp_f3[5] != Inf), ]
 gp_f3 <- gp_f3[which(gp_f3[5] != 'NaN'), ]
 
-gp_f4 <- read.csv("GP/Result_GP_EXP2_FUNC_3.csv", quote ="", header=FALSE)
+gp_f4 <- read.csv("GP/Result_GP_EXP2_FUNC_4.csv", quote ="", header=FALSE)
 gp_f4 <- gp_f4[which(gp_f4[5] != Inf), ]
 gp_f4 <- gp_f4[which(gp_f4[5] != 'NaN'), ]
 
@@ -111,9 +111,7 @@ gp_f5 <- read.csv("GP/Result_GP_EXP2_FUNC_5.csv", quote ="", header=FALSE)
 gp_f5 <- gp_f5[which(gp_f5[5] != Inf), ]
 gp_f5 <- gp_f5[which(gp_f5[5] != 'NaN'), ]
 
-remove(gp_f1, gp_f2, gp_f3, gp_f4, gp_f5)
-
-gpa_f1 <- read.csv("GP/Result_GP_EXP2_FUNC_4_Alea.csv", quote ="", header=FALSE)
+gpa_f1 <- read.csv("GP/Result_GP_EXP2_FUNC_1_Alea.csv", quote ="", header=FALSE)
 gpa_f1 <- gpa_f1[which(gpa_f1[5] != Inf), ]
 gpa_f1 <- gpa_f1[which(gpa_f1[5] != 'NaN'), ]
 
@@ -121,11 +119,11 @@ gpa_f2 <- read.csv("GP/Result_GP_EXP2_FUNC_2_Alea.csv", quote ="", header=FALSE)
 gpa_f2 <- gpa_f2[which(gpa_f2[5] != Inf), ]
 gpa_f2 <- gpa_f2[which(gpa_f2[5] != 'NaN'), ]
 
-gpa_f3 <- read.csv("GP/Result_GP_EXP2_FUNC_1_Alea.csv", quote ="", header=FALSE)
+gpa_f3 <- read.csv("GP/Result_GP_EXP2_FUNC_3_Alea.csv", quote ="", header=FALSE)
 gpa_f3 <- gpa_f3[which(gpa_f3[5] != Inf), ]
 gpa_f3 <- gpa_f3[which(gpa_f3[5] != 'NaN'), ]
 
-gpa_f4 <- read.csv("GP/Result_GP_EXP2_FUNC_3_Alea.csv", quote ="", header=FALSE)
+gpa_f4 <- read.csv("GP/Result_GP_EXP2_FUNC_4_Alea.csv", quote ="", header=FALSE)
 gpa_f4 <- gpa_f4[which(gpa_f4[5] != Inf), ]
 gpa_f4 <- gpa_f4[which(gpa_f4[5] != 'NaN'), ]
 
@@ -133,10 +131,9 @@ gpa_f5 <- read.csv("GP/Result_GP_EXP2_FUNC_5_Alea.csv", quote ="", header=FALSE)
 gpa_f5 <- gpa_f5[which(gpa_f5[5] != Inf), ]
 gpa_f5 <- gpa_f5[which(gpa_f5[5] != 'NaN'), ]
 
-remove(gpa_f1, gpa_f2, gpa_f3, gpa_f4, gpa_f5)
 
 #GP Reduzido
-gpr_f1 <- read.csv("GP/Result_GP_EXP2_FUNC_4_Reduzido.csv", quote ="", header=FALSE)
+gpr_f1 <- read.csv("GP/Result_GP_EXP2_FUNC_1_Reduzido.csv", quote ="", header=FALSE)
 gpr_f1 <- gpr_f1[which(gpr_f1[5] != Inf), ]
 gpr_f1 <- gpr_f1[which(gpr_f1[5] != 'NaN'), ]
 
@@ -144,11 +141,11 @@ gpr_f2 <- read.csv("GP/Result_GP_EXP2_FUNC_2_Reduzido.csv", quote ="", header=FA
 gpr_f2 <- gpr_f2[which(gpr_f2[5] != Inf), ]
 gpr_f2 <- gpr_f2[which(gpr_f2[5] != 'NaN'), ]
 
-gpr_f3 <- read.csv("GP/Result_GP_EXP2_FUNC_1_Reduzido.csv", quote ="", header=FALSE)
+gpr_f3 <- read.csv("GP/Result_GP_EXP2_FUNC_3_Reduzido.csv", quote ="", header=FALSE)
 gpr_f3 <- gpr_f3[which(gpr_f3[5] != Inf), ]
 gpr_f3 <- gpr_f3[which(gpr_f3[5] != 'NaN'), ]
 
-gpr_f4 <- read.csv("GP/Result_GP_EXP2_FUNC_3_Reduzido.csv", quote ="", header=FALSE)
+gpr_f4 <- read.csv("GP/Result_GP_EXP2_FUNC_4_Reduzido.csv", quote ="", header=FALSE)
 gpr_f4 <- gpr_f4[which(gpr_f4[5] != Inf), ]
 gpr_f4 <- gpr_f4[which(gpr_f4[5] != 'NaN'), ]
 
@@ -156,9 +153,7 @@ gpr_f5 <- read.csv("GP/Result_GP_EXP2_FUNC_5_Reduzido.csv", quote ="", header=FA
 gpr_f5 <- gpr_f5[which(gpr_f5[5] != Inf), ]
 gpr_f5 <- gpr_f5[which(gpr_f5[5] != 'NaN'), ]
 
-remove(gpr_f1, gpr_f2, gpr_f3, gpr_f4, gpr_f5)
-
-gpra_f1 <- read.csv("GP/Result_GP_EXP2_FUNC_4_Reduzido_Alea.csv", quote ="", header=FALSE)
+gpra_f1 <- read.csv("GP/Result_GP_EXP2_FUNC_1_Reduzido_Alea.csv", quote ="", header=FALSE)
 gpra_f1 <- gpra_f1[which(gpra_f1[5] != Inf), ]
 gpra_f1 <- gpra_f1[which(gpra_f1[5] != 'NaN'), ]
 
@@ -166,11 +161,11 @@ gpra_f2 <- read.csv("GP/Result_GP_EXP2_FUNC_2_Reduzido_Alea.csv", quote ="", hea
 gpra_f2 <- gpra_f2[which(gpra_f2[5] != Inf), ]
 gpra_f2 <- gpra_f2[which(gpra_f2[5] != 'NaN'), ]
 
-gpra_f3 <- read.csv("GP/Result_GP_EXP2_FUNC_1_Reduzido_Alea.csv", quote ="", header=FALSE)
+gpra_f3 <- read.csv("GP/Result_GP_EXP2_FUNC_3_Reduzido_Alea.csv", quote ="", header=FALSE)
 gpra_f3 <- gpra_f3[which(gpra_f3[5] != Inf), ]
 gpra_f3 <- gpra_f3[which(gpra_f3[5] != 'NaN'), ]
 
-gpra_f4 <- read.csv("GP/Result_GP_EXP2_FUNC_3_Reduzido_Alea.csv", quote ="", header=FALSE)
+gpra_f4 <- read.csv("GP/Result_GP_EXP2_FUNC_4_Reduzido_Alea.csv", quote ="", header=FALSE)
 gpra_f4 <- gpra_f4[which(gpra_f4[5] != Inf), ]
 gpra_f4 <- gpra_f4[which(gpra_f4[5] != 'NaN'), ]
 
@@ -179,4 +174,8 @@ gpra_f5 <- gpra_f5[which(gpra_f5[5] != Inf), ]
 gpra_f5 <- gpra_f5[which(gpra_f5[5] != 'NaN'), ]
 
 remove(gpra_f1, gpra_f2, gpra_f3, gpra_f4, gpra_f5)
+remove(gpr_f1, gpr_f2, gpr_f3, gpr_f4, gpr_f5)
+remove(gpa_f1, gpa_f2, gpa_f3, gpa_f4, gpa_f5)
+remove(gp_f1, gp_f2, gp_f3, gp_f4, gp_f5)
+
 
