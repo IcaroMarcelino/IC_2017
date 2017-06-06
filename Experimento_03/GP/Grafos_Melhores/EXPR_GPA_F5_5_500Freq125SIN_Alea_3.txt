@@ -1,1 +1,0 @@
-mul(add(mul(sub(mul(x, 2), x), mul(1, 1)), neg(mul(sub(1, 1), 1))), sub(1, 1))
