@@ -1,0 +1,4 @@
+Altura Maxima,#Amostras,#Execucao,MSE (Melhor), ErroPercentual, Altura (Melhor),Tempo Execucao
+5,350,1,0.4887156102969209,1.0,4,138.65140008926392
+5,350,2,0.476094489393,inf,5,431.3485634326935
+5,350,3,nan,nan,5,418.30766320228577

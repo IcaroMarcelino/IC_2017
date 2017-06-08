@@ -1,0 +1,1 @@
+p_div(mul(1, mul(mul(1, p_div(p_div(x, x), 2)), sub(sub(1, 1), 1))), sub(mul(mul(p_div(1, p_div(1, neg(neg(x)))), p_div(1, mul(add(neg(2), p_div(p_div(1, 2), x)), mul(sub(2, x), p_div(p_div(1, x), 2))))), mul(mul(add(x, 2), neg(p_div(sub(1, x), 1))), add(add(2, 2), p_div(x, mul(1, 1))))), 1))
