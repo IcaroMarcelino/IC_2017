@@ -1,0 +1,1 @@
+add(mul(x, sub(add(add(x, x), mul(2, 2)), mul(sub(x, 2), x))), sub(sub(sub(x, 2), add(add(1, x), mul(2, 2))), sub(add(add(2, 2), mul(2, 2)), mul(mul(2, 2), x))))

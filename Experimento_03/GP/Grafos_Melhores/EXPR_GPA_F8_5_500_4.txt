@@ -1,0 +1,1 @@
+p_div(mul(sub(sub(sub(x, 2), 2), 1), sub(add(add(1, 2), 2), mul(mul(x, 2), add(x, 1)))), 2)

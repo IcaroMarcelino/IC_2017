@@ -1,0 +1,1 @@
+mul(mul(add(1, mul(x, x)), add(x, mul(x, mul(x, 1)))), add(1, mul(mul(x, x), mul(x, x))))
