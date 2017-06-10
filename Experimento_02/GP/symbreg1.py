@@ -368,7 +368,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 			F1 = float('nan')
 		f_xy_approx.append(F1)
 		mse_final.append((F1-y)**2)
-		erro_percent.append(abs(F1-y)/y)
+		erro_percent.append(abs(F1-y)/abs(y))
 
 	tabela = []
 	count = 0
@@ -420,50 +420,13 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [68]
-	param = [(3,1,200,1200)]
+	#tam_max_tree = [5, 10, 17, 34, 68]
+	tam_max_tree = [5, 10]
 
-	for funcao,step_,scale_,nsamples_ in param:
-		for alea in [False]:
-			for ops in [False,True]:
-				for tam_max in tam_max_tree:
-					for n in list(range(0,10)):
-			
-						if alea:
-							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) 
-						else:
-							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_)  
-						if ops:
-							filename += "_OP"
-
-						main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
-								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
-								FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	OPS = ops)
-
-	tam_max_tree = [5,10,17,34,68]
-	param = [(3,1,400,2400)]
+	param = [(3,1,50,300), 	(3,1,200,1200), 	(3,1,400,2400), 	(3,1,800,4800), (3,1,1600,9600)]
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [True, False]:
-			for ops in [True, False]:
-				for tam_max in tam_max_tree:
-					for n in list(range(0,10)):
-			
-						if alea:
-							filename = "GPA_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_) 
-						else:
-							filename = "GP_F" + str(funcao) + "_" + str(tam_max) + "_" + str(nsamples_)  
-						if ops:
-							filename += "_OP"
-
-						main(	NEXEC = n, 		TAM_MAX = tam_max, 		NGEN = NGEN,	CXPB = CXPB, 	MUTPB = MUTPB,	
-								NPOP = NPOP, 	train_percent = train_percent, 			verb = False,	FILE_NAME = filename, 	
-								FUNC = funcao, 	ALEA = alea, 			step = step_,	scale = scale_, nsamples = nsamples_, 	OPS = ops)
-
-	param = [(2,1,50,5000)]
-
-	for funcao,step_,scale_,nsamples_ in param:
-		for alea in [False]:
 			for ops in [True, False]:
 				for tam_max in tam_max_tree:
 					for n in list(range(0,10)):
