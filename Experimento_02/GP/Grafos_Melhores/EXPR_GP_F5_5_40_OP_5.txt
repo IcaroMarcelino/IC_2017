@@ -1,1 +1,1 @@
-mul(log(add(sub(add(1, 1), mul(1, 1)), add(1, add(1, 1)))), x)
+mul(log(add(log(add(x, 2)), mul(add(2, 2), log(2)))), x)

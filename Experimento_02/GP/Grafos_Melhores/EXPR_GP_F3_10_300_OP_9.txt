@@ -1,1 +1,1 @@
-sin(sin(sin(sin(sin(p_div(p_div(p_div(p_div(add(1, x4), 1), 1), add(1, 2)), sin(1)))))))
+sin(sin(sin(sin(sin(sin(mul(2, sin(sin(p_div(x5, 2))))))))))

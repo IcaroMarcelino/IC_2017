@@ -1,0 +1,1 @@
+p_div(p_div(2, p_div(2, p_div(1, 2))), sin(p_div(add(neg(x4), add(x4, 2)), 1)))

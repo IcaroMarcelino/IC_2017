@@ -1,0 +1,1 @@
+sin(sin(sin(sin(sin(p_div(sin(sin(mul(1, 2))), p_div(2, sub(1, neg(x2)))))))))

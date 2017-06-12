@@ -1,1 +1,1 @@
-mul(p_div(add(add(log(x), 2), sub(sub(2, 2), 2)), log(x)), add(p_div(add(p_div(x, 2), x), add(2, 2)), x))
+add(p_div(x, add(add(p_div(2, x), sub(x, x)), sub(log(2), sub(1, x)))), x)

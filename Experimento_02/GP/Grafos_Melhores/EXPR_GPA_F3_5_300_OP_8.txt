@@ -1,1 +1,1 @@
-mul(sin(sin(p_div(add(x4, x1), add(x4, 2)))), sin(sin(p_div(sin(2), 1))))
+sin(p_div(sin(p_div(sin(2), sin(2))), mul(mul(2, sin(2)), sin(sin(2)))))

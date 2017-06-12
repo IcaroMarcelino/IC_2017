@@ -368,7 +368,11 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 			F1 = float('nan')
 		f_xy_approx.append(F1)
 		mse_final.append((F1-y)**2)
-		erro_percent.append(abs(F1-y)/abs(y))
+
+		if y == 0:
+			erro_percent.append(math.inf)
+		else:
+			erro_percent.append(abs(F1-y)/abs(y))
 
 	tabela = []
 	count = 0
