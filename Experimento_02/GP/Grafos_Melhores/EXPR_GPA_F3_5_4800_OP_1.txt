@@ -1,1 +1,1 @@
-p_div(sin(sin(2)), mul(2, sin(sin(sin(2)))))
+mul(sin(sin(p_div(add(2, x2), add(1, 2)))), sin(sin(1)))

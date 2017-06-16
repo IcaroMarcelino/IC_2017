@@ -1,0 +1,1 @@
+sin(sin(sin(sin(sin(p_div(add(x3, sin(2)), add(2, p_div(2, add(2, 2)))))))))

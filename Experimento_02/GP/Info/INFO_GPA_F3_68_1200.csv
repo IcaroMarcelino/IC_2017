@@ -4,3 +4,5 @@ Altura Maxima,#Amostras,#Execucao,MSE (Melhor), ErroPercentual, Altura (Melhor),
 Altura Maxima,#Amostras,#Execucao,MSE (Melhor), ErroPercentual, Altura (Melhor),Tempo Execucao
 68,1200,1,14.9477570237,1.04962091782,66,18762.969609737396
 68,1200,2,69.4151383601,1.14798532633,58,23624.713831424713
+Altura Maxima,#Amostras,#Execucao,MSE (Melhor), ErroPercentual, Altura (Melhor),Tempo Execucao
+68,1200,1,233.895554578,2.5528498063,64,13754.468878030777
