@@ -208,7 +208,7 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 		pset = gp.PrimitiveSet("MAIN", 1)
 
 		if OPS:
-			pset.addPrimitive(math.log, 1)
+			pset.addPrimitive(p_ln, 1)
 		else:
 			flag += "_Reduzido"		
 
@@ -368,7 +368,11 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, FILE_NAME
 			F1 = float('nan')
 		f_xy_approx.append(F1)
 		mse_final.append((F1-y)**2)
-		erro_percent.append(abs(F1-y)/abs(y))
+
+		if y == 0:
+			erro_percent.append(math.inf)
+		else:
+			erro_percent.append(abs(F1-y)/abs(y))
 
 	tabela = []
 	count = 0
@@ -420,10 +424,15 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	#tam_max_tree = [5, 10, 17, 34, 68]
-	tam_max_tree = [17]
+	tam_max_tree = [34]
 
-	param = [(3,1,50,300), 	(3,1,200,1200), 	(3,1,400,2400), 	(3,1,800,4800), (3,1,1600,9600)]
+	# param = [	(1,0,0,25), 	(1,0,0,50), 		(1,0,0,75), 		(1,0,0,100),
+	# 			(2,1,10,1000), 	(2,1,20,2000), 		(2,1,30,3000), 		(2,1,50,5000), 	(2,1,100,10000),
+	# 			(3,1,50,300), 	(3,1,200,1200), 	(3,1,400,2400), 	(3,1,800,4800), (3,1,1600,9600),
+	# 			(4,4,10,25), 	(4,4,20,50), 		(4,4,30,75), 		(4,4,50,125), 	(4,4,100,250),	
+	# 			(5,1,20,40), 	(5,1,100,200), 		(5,1,200,400), 		(5,1,400,800), 	(5,1,800,1600)]
+
+	param = [(5,1,20,40), 	(5,1,100,200), 		(5,1,200,400), 		(5,1,400,800), 	(5,1,800,1600)]
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [True, False]:
