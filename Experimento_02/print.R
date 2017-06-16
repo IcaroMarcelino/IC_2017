@@ -1,13 +1,14 @@
 par(mfrow = c(1,2))
+mtext("Número de Amostras.Arquitetura", side=1, line=4)
 
 #boxplot(as.numeric(unlist(dlr_4[5]*100))~as.numeric(unlist(dlr_4[2]))*as.numeric(unlist(dlr_4[1])), las = 2, ylim=(c(0,70)), border = "blue", col = rgb(0.5,0.5,1, alpha = 0.5), main = "Deep Learning\nFunção 1 - Ativação ReLU", ylab = "Erro percentual (%)")
 #boxplot(as.numeric(unlist(dlra_4[5]*100))~as.numeric(unlist(dlra_4[2]))*as.numeric(unlist(dlra_4[1])), las = 2, ylim=(c(0,70)), border = "red", col = rgb(1,0.5,0.5, alpha = 0.5), add= TRUE)
 
-boxplot(abs(as.numeric(unlist(dlr_2[5]*100)))~as.numeric(unlist(dlr_2[2]))*as.numeric(unlist(dlr_2[1])), las = 2, ylim=(c(0,300)), border = "blue", col = rgb(0.5,0.5,1, alpha = 0.5), main = "Deep Learning\nFunção 2  - Ativação ReLU", ylab = "Erro percentual (%)")
-boxplot(as.numeric(abs(unlist(dlra_2[5]*100)))~as.numeric(unlist(dlra_2[2]))*as.numeric(unlist(dlra_2[1])), las = 2, ylim=(c(0,300)), border = "red", col = rgb(1,0.5,0.5, alpha = 0.5), add= TRUE)
+#boxplot(abs(as.numeric(unlist(dlr_2[5]*100)))~as.numeric(unlist(dlr_2[2]))*as.numeric(unlist(dlr_2[1])), las = 2, ylim=(c(0,300)), border = "blue", col = rgb(0.5,0.5,1, alpha = 0.5), main = "Deep Learning\nFunção 2  - Ativação ReLU", ylab = "Erro percentual (%)")
+#boxplot(as.numeric(abs(unlist(dlra_2[5]*100)))~as.numeric(unlist(dlra_2[2]))*as.numeric(unlist(dlra_2[1])), las = 2, ylim=(c(0,300)), border = "red", col = rgb(1,0.5,0.5, alpha = 0.5), add= TRUE)
 
-boxplot(as.numeric(unlist(dlr_1[5]*100))~as.numeric(unlist(dlr_1[2]))*as.numeric(unlist(dlr_1[1])), las = 2, ylim=(c(0,70)), border = "blue", col = rgb(0.5,0.5,1, alpha = 0.5), main = "Deep Learning\nFunção 3 - Ativação ReLU", ylab = "Erro percentual (%)")
-boxplot(as.numeric(unlist(dlra_1[5]*100))~as.numeric(unlist(dlra_1[2]))*as.numeric(unlist(dlra_1[1])), las = 2, ylim=(c(0,70)), border = "red", col = rgb(1,0.5,0.5, alpha = 0.5), add= TRUE)
+#boxplot(as.numeric(unlist(dlr_1[5]*100))~as.numeric(unlist(dlr_1[2]))*as.numeric(unlist(dlr_1[1])), las = 2, ylim=(c(0,70)), border = "blue", col = rgb(0.5,0.5,1, alpha = 0.5), main = "Deep Learning\nFunção 3 - Ativação ReLU", ylab = "Erro percentual (%)")
+#boxplot(as.numeric(unlist(dlra_1[5]*100))~as.numeric(unlist(dlra_1[2]))*as.numeric(unlist(dlra_1[1])), las = 2, ylim=(c(0,70)), border = "red", col = rgb(1,0.5,0.5, alpha = 0.5), add= TRUE)
 
 boxplot(as.numeric(unlist(dlr_3[5]*100))~as.numeric(unlist(dlr_3[2]))*as.numeric(unlist(dlr_3[1])), las = 2, ylim=(c(0,70)), border = "blue", col = rgb(0.5,0.5,1, alpha = 0.5), main = "Deep Learning\nFunção 4 - Ativação ReLU", ylab = "Erro percentual (%)")
 boxplot(as.numeric(unlist(dlra_3[5]*100))~as.numeric(unlist(dlra_3[2]))*as.numeric(unlist(dlra_3[1])), las = 2, ylim=(c(0,70)), border = "red", col = rgb(1,0.5,0.5, alpha = 0.5), add= TRUE)
