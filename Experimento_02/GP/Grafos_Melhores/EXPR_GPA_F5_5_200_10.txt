@@ -1,1 +1,1 @@
-add(p_div(x, add(add(x, p_div(1, 2)), p_div(p_div(2, x), add(x, 1)))), x)
+add(p_div(add(add(p_div(1, 1), x), neg(1)), add(p_div(1, add(x, x)), add(p_div(1, x), x))), p_div(add(add(1, x), neg(p_div(1, 1))), p_div(x, p_div(1, p_div(1, x)))))

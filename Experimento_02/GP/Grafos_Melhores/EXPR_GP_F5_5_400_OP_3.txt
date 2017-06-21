@@ -1,0 +1,1 @@
+mul(p_div(add(1, 1), p_div(2, x)), p_ln(add(2, p_div(2, 1))))

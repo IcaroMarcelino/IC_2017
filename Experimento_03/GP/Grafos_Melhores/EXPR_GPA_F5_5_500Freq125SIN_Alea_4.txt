@@ -1,1 +1,1 @@
-sub(1, add(neg(x), add(add(x, sub(1, 1)), 1)))
+sub(1, 1)

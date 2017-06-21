@@ -1,0 +1,1 @@
+mul(p_div(mul(p_div(2, p_div(1, x)), mul(p_ln(2), p_ln(2))), mul(2, mul(1, p_ln(2)))), mul(p_div(add(1, 1), mul(p_ln(2), p_ln(2))), mul(1, mul(p_ln(2), p_ln(2)))))

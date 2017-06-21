@@ -227,8 +227,11 @@ def main(NEXEC, TAM_MAX, NGEN, CXPB, MUTPB, NPOP, train_percent, verb, filename,
 			if elem > 1e3:
 				pOut.remove(elem)
 
+
 		pset = gp.PrimitiveSet("MAIN", 1)
 		pset.renameArguments(ARG0='x')
+
+		pOut = [f(W,x) for x in px]
 
 		train_points 	= list(zip(px, pOut))[:TRAIN_TAM]
 		test_points 	= list(zip(px, pOut))[TRAIN_TAM:]

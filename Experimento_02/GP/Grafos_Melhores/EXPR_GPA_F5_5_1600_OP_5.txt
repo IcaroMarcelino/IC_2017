@@ -1,0 +1,1 @@
+mul(add(neg(add(2, x)), add(add(neg(x), add(x, 2)), mul(2, x))), p_ln(mul(add(neg(x), add(x, 2)), add(neg(x), add(x, 2)))))

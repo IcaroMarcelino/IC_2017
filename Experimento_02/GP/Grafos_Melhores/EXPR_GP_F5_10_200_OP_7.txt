@@ -1,0 +1,1 @@
+add(p_div(x, add(add(add(p_div(1, add(mul(2, x), mul(x, p_div(mul(x, x), 2)))), p_div(p_ln(p_div(mul(x, mul(x, 1)), 2)), p_div(add(add(mul(1, 1), 2), 2), p_ln(mul(x, mul(x, x)))))), p_div(x, add(add(add(1, 1), p_div(add(add(2, x), 2), add(2, mul(x, x)))), 2))), 2)), x)

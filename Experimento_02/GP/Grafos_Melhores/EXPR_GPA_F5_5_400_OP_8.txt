@@ -1,0 +1,1 @@
+mul(x, p_ln(add(add(add(1, 1), add(1, 1)), mul(2, p_ln(1)))))

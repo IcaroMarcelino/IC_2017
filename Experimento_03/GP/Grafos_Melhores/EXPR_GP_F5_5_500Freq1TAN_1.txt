@@ -1,1 +1,1 @@
-mul(mul(mul(add(mul(2, 2), mul(2, 2)), mul(add(x, x), add(x, x))), mul(mul(add(x, x), mul(x, x)), mul(add(x, x), add(x, x)))), mul(mul(add(add(2, x), mul(2, 2)), mul(add(x, x), add(x, x))), mul(add(mul(2, 2), mul(2, 2)), add(mul(2, 2), mul(2, 2)))))
+mul(mul(mul(mul(mul(2, 2), mul(2, x)), mul(mul(2, x), mul(2, x))), mul(mul(mul(2, 2), mul(2, 2)), mul(mul(2, 2), mul(2, 2)))), mul(mul(mul(mul(2, 2), mul(2, x)), mul(mul(2, x), mul(x, 2))), mul(mul(mul(2, x), mul(2, 2)), mul(add(2, 2), add(2, x)))))
