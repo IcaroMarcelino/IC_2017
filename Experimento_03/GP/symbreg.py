@@ -431,7 +431,7 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [5]
+	tam_max_tree = [5,10,17,34]
 
 	param = [(5,1,500/(2*math.pi),500)]
 

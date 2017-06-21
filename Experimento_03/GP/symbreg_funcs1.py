@@ -536,9 +536,9 @@ if __name__ == "__main__":
 	NPOP = 300
 	train_percent = 0.7
 
-	tam_max_tree = [10]
+	tam_max_tree = [5,10,17,34]
 
-	param = [(8,1,500/12,500), (9,1,500/4,500)]
+	param = [(6,1,500/9.99,500)]
 
 	for funcao,step_,scale_,nsamples_ in param:
 		for alea in [True, False]:
