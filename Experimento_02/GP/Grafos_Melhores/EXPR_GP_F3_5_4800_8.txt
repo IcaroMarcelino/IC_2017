@@ -1,0 +1,1 @@
+p_div(1, add(p_div(sub(p_div(1, x3), 2), add(p_div(2, x3), add(x3, x3))), 2))
