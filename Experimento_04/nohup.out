@@ -3459,3 +3459,1141 @@ W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn'
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+Epoch: 0001 cost= 12672.879882812
+Epoch: 1001 cost= 0.425422758
+Epoch: 2001 cost= 0.159879446
+Epoch: 3001 cost= 0.079568639
+Epoch: 4001 cost= 0.047144048
+Epoch: 5001 cost= 0.032550760
+Epoch: 6001 cost= 0.024742421
+Epoch: 7001 cost= 0.020600449
+Epoch: 8001 cost= 0.018110037
+Epoch: 9001 cost= 0.016482780
+Optimization Finished!
+
+
+Epoch: 0001 cost= 891313.875000000
+Epoch: 1001 cost= 1.272347689
+Epoch: 2001 cost= 0.329460144
+Epoch: 3001 cost= 0.264390469
+Epoch: 4001 cost= 0.235620067
+Epoch: 5001 cost= 0.211401075
+Epoch: 6001 cost= 0.190954238
+Epoch: 7001 cost= 0.173837394
+Epoch: 8001 cost= 0.159373209
+Epoch: 9001 cost= 0.147095636
+Optimization Finished!
+
+
+Epoch: 0001 cost= 1800.798583984
+Epoch: 1001 cost= 0.074858099
+Epoch: 2001 cost= 0.053226788
+Epoch: 3001 cost= 0.043559786
+Epoch: 4001 cost= 0.019020999
+Epoch: 5001 cost= 0.015942376
+Epoch: 6001 cost= 0.013716671
+Epoch: 7001 cost= 0.012036668
+Epoch: 8001 cost= 0.010703629
+Epoch: 9001 cost= 0.009616017
+Optimization Finished!
+
+
+Epoch: 0001 cost= 175952.250000000
+Epoch: 1001 cost= 0.560267568
+Epoch: 2001 cost= 0.314220190
+Epoch: 3001 cost= 0.200521752
+Epoch: 4001 cost= 0.136713594
+Epoch: 5001 cost= 0.094853982
+Epoch: 6001 cost= 0.066407233
+Epoch: 7001 cost= 0.046706457
+Epoch: 8001 cost= 0.033226259
+Epoch: 9001 cost= 0.023762550
+Optimization Finished!
+
+
+Epoch: 0001 cost= 84073.453125000
+Epoch: 1001 cost= 0.320010990
+Epoch: 2001 cost= 0.154961377
+Epoch: 3001 cost= 0.098686673
+Epoch: 4001 cost= 0.074554391
+Epoch: 5001 cost= 0.062789641
+Epoch: 6001 cost= 0.055980641
+Epoch: 7001 cost= 0.051581759
+Epoch: 8001 cost= 0.048185259
+Epoch: 9001 cost= 0.045296662
+Optimization Finished!
+
+
+Epoch: 0001 cost= 12723.653320312
+Epoch: 1001 cost= 0.448580205
+Epoch: 2001 cost= 0.313114971
+Epoch: 3001 cost= 0.233953670
+Epoch: 4001 cost= 0.185711771
+Epoch: 5001 cost= 0.152148932
+Epoch: 6001 cost= 0.127357185
+Epoch: 7001 cost= 0.108226612
+Epoch: 8001 cost= 0.093343705
+Epoch: 9001 cost= 0.080330513
+Optimization Finished!
+
+
+Epoch: 0001 cost= 1314.588256836
+Epoch: 1001 cost= 0.018075638
+Epoch: 2001 cost= 0.012071470
+Epoch: 3001 cost= 0.010157754
+Epoch: 4001 cost= 0.008916220
+Epoch: 5001 cost= 0.007920044
+Epoch: 6001 cost= 0.007056927
+Epoch: 7001 cost= 0.006281952
+Epoch: 8001 cost= 0.005572688
+Epoch: 9001 cost= 0.004914616
+Optimization Finished!
+
+
+Epoch: 0001 cost= 1592.701416016
+Epoch: 1001 cost= 0.101552628
+Epoch: 2001 cost= 0.061210781
+Epoch: 3001 cost= 0.042667836
+Epoch: 4001 cost= 0.032363646
+Epoch: 5001 cost= 0.026084084
+Epoch: 6001 cost= 0.022080077
+Epoch: 7001 cost= 0.019447166
+Epoch: 8001 cost= 0.017624626
+Epoch: 9001 cost= 0.016428875
+Optimization Finished!
+
+
+Epoch: 0001 cost= 75216.195312500
+Epoch: 1001 cost= 0.016745610
+Epoch: 2001 cost= 0.007085945
+Epoch: 3001 cost= 0.004283405
+Epoch: 4001 cost= 0.003369517
+Epoch: 5001 cost= 0.002917693
+Epoch: 6001 cost= 0.002621064
+Epoch: 7001 cost= 0.002390277
+Epoch: 8001 cost= 0.002196587
+Epoch: 9001 cost= 0.002027478
+Optimization Finished!
+
+
+Epoch: 0001 cost= 20255.025390625
+Epoch: 1001 cost= 0.470362723
+Epoch: 2001 cost= 0.237621993
+Epoch: 3001 cost= 0.193990275
+Epoch: 4001 cost= 0.162475407
+Epoch: 5001 cost= 0.138600513
+Epoch: 6001 cost= 0.120100714
+Epoch: 7001 cost= 0.105344057
+Epoch: 8001 cost= 0.093412772
+Epoch: 9001 cost= 0.083982527
+Optimization Finished!
+
+
+Epoch: 0001 cost= 5850.690429688
+Epoch: 1001 cost= 0.007992482
+Epoch: 2001 cost= 0.005853669
+Epoch: 3001 cost= 0.004253009
+Epoch: 4001 cost= 0.002977279
+Epoch: 5001 cost= 0.002063822
+Epoch: 6001 cost= 0.001427221
+Epoch: 7001 cost= 0.001009985
+Epoch: 8001 cost= 0.000742359
+Epoch: 9001 cost= 0.000561478
+Optimization Finished!
+
+
+Epoch: 0001 cost= 9853.734375000
+Epoch: 1001 cost= 0.437714577
+Epoch: 2001 cost= 0.265324682
+Epoch: 3001 cost= 0.195825949
+Epoch: 4001 cost= 0.164064839
+Epoch: 5001 cost= 0.142632544
+Epoch: 6001 cost= 0.125614375
+Epoch: 7001 cost= 0.111896381
+Epoch: 8001 cost= 0.102013662
+Epoch: 9001 cost= 0.094358996
+Optimization Finished!
+
+
+Epoch: 0001 cost= 10807.725585938
+Epoch: 1001 cost= 0.429829925
+Epoch: 2001 cost= 0.233448863
+Epoch: 3001 cost= 0.147377938
+Epoch: 4001 cost= 0.100499369
+Epoch: 5001 cost= 0.071995929
+Epoch: 6001 cost= 0.053389352
+Epoch: 7001 cost= 0.040607449
+Epoch: 8001 cost= 0.031692568
+Epoch: 9001 cost= 0.025129721
+Optimization Finished!
+
+
+Epoch: 0001 cost= 8447.567382812
+Epoch: 1001 cost= 0.129788622
+Epoch: 2001 cost= 0.045158964
+Epoch: 3001 cost= 0.022520611
+Epoch: 4001 cost= 0.014278459
+Epoch: 5001 cost= 0.010989363
+Epoch: 6001 cost= 0.009591517
+Epoch: 7001 cost= 0.008834935
+Epoch: 8001 cost= 0.008314910
+Epoch: 9001 cost= 0.008000388
+Optimization Finished!
+
+
+Epoch: 0001 cost= 42178.316406250
+Epoch: 1001 cost= 0.349262714
+Epoch: 2001 cost= 0.118016742
+Epoch: 3001 cost= 0.045156155
+Epoch: 4001 cost= 0.023057334
+Epoch: 5001 cost= 0.008637081
+Epoch: 6001 cost= 0.006341786
+Epoch: 7001 cost= 0.005506456
+Epoch: 8001 cost= 0.004872827
+Epoch: 9001 cost= 0.004332894
+Optimization Finished!
+
+
+Epoch: 0001 cost= 324325.437500000
+Epoch: 1001 cost= 0.175880358
+Epoch: 2001 cost= 0.091431931
+Epoch: 3001 cost= 0.062682569
+Epoch: 4001 cost= 0.046113007
+Epoch: 5001 cost= 0.035191458
+Epoch: 6001 cost= 0.028140580
+Epoch: 7001 cost= 0.023106154
+Epoch: 8001 cost= 0.019112179
+Epoch: 9001 cost= 0.015926501
+Optimization Finished!
+
+
+Epoch: 0001 cost= 37083.742187500
+Epoch: 1001 cost= 0.367215097
+Epoch: 2001 cost= 0.104687788
+Epoch: 3001 cost= 0.066960335
+Epoch: 4001 cost= 0.028799867
+Epoch: 5001 cost= 0.025464794
+Epoch: 6001 cost= 0.023551416
+Epoch: 7001 cost= 0.022229919
+Epoch: 8001 cost= 0.021332894
+Epoch: 9001 cost= 0.020718282
+Optimization Finished!
+
+
+Epoch: 0001 cost= 2831.961425781
+Epoch: 1001 cost= 0.085559830
+Epoch: 2001 cost= 0.064489901
+Epoch: 3001 cost= 0.054217111
+Epoch: 4001 cost= 0.047591362
+Epoch: 5001 cost= 0.040547926
+Epoch: 6001 cost= 0.034352034
+Epoch: 7001 cost= 0.027170464
+Epoch: 8001 cost= 0.025539774
+Epoch: 9001 cost= 0.024201276
+Optimization Finished!
+
+
+Epoch: 0001 cost= 172575.281250000
+Epoch: 1001 cost= 0.887505651
+Epoch: 2001 cost= 0.419806957
+Epoch: 3001 cost= 0.332451642
+Epoch: 4001 cost= 0.286536843
+Epoch: 5001 cost= 0.254770815
+Epoch: 6001 cost= 0.231250092
+Epoch: 7001 cost= 0.212164551
+Epoch: 8001 cost= 0.196109533
+Epoch: 9001 cost= 0.182324529
+Optimization Finished!
+
+
+Epoch: 0001 cost= 4612.965820312
+Epoch: 1001 cost= 0.049304254
+Epoch: 2001 cost= 0.039453033
+Epoch: 3001 cost= 0.034906846
+Epoch: 4001 cost= 0.032045908
+Epoch: 5001 cost= 0.029554436
+Epoch: 6001 cost= 0.027598459
+Epoch: 7001 cost= 0.025745612
+Epoch: 8001 cost= 0.012091344
+Epoch: 9001 cost= 0.006952943
+Optimization Finished!
+
+
+Epoch: 0001 cost= 50699.929687500
+Epoch: 1001 cost= 3.641702175
+Epoch: 2001 cost= 0.558578968
+Epoch: 3001 cost= 0.223241568
+Epoch: 4001 cost= 0.144705638
+Epoch: 5001 cost= 0.102078237
+Epoch: 6001 cost= 0.073229775
+Epoch: 7001 cost= 0.053195637
+Epoch: 8001 cost= 0.039064638
+Epoch: 9001 cost= 0.029004406
+Optimization Finished!
+
+
+Traceback (most recent call last):
+  File "deep_teste1.py", line 203, in <module>
+    learning_rate = 0.1, training_epochs = training_epochs, batch_size = batch_size, display_step = 1000)
+  File "/root/mpi_projects/IC_2017/Experimento_04/regdeep.py", line 120, in MLP
+    _, c, p = sess.run([optimizer, cost, pred], feed_dict={x: batch_x, y: batch_y})
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 767, in run
+    run_metadata_ptr)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 944, in _run
+    % (np_val.shape, subfeed_t.name, str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (0,) for Tensor 'Placeholder_40:0', which has shape '(?, 2)'
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+Epoch: 0001 cost= 77738.187500000
+Epoch: 1001 cost= 0.104634479
+Epoch: 2001 cost= 0.070153847
+Epoch: 3001 cost= 0.058055304
+Epoch: 4001 cost= 0.050842762
+Epoch: 5001 cost= 0.044919781
+Epoch: 6001 cost= 0.039929844
+Epoch: 7001 cost= 0.035722867
+Epoch: 8001 cost= 0.032120962
+Epoch: 9001 cost= 0.029002732
+Optimization Finished!
+
+
+Epoch: 0001 cost= 23219.343750000
+Epoch: 1001 cost= 0.015727226
+Epoch: 2001 cost= 0.001112917
+Epoch: 3001 cost= 0.000590900
+Epoch: 4001 cost= 0.000317834
+Epoch: 5001 cost= 0.000173536
+Epoch: 6001 cost= 0.000098085
+Epoch: 7001 cost= 0.000055850
+Epoch: 8001 cost= 0.000032893
+Epoch: 9001 cost= 0.000019542
+Optimization Finished!
+
+
+Epoch: 0001 cost= 21492.003906250
+Epoch: 1001 cost= 0.007972923
+Epoch: 2001 cost= 0.002608244
+Epoch: 3001 cost= 0.001416319
+Epoch: 4001 cost= 0.000785055
+Epoch: 5001 cost= 0.000497160
+Epoch: 6001 cost= 0.000357931
+Epoch: 7001 cost= 0.000239109
+Epoch: 8001 cost= 0.000174871
+Epoch: 9001 cost= 0.000130382
+Optimization Finished!
+
+
+Epoch: 0001 cost= 254811.906250000
+Epoch: 1001 cost= 0.614579260
+Epoch: 2001 cost= 0.312089026
+Epoch: 3001 cost= 0.199893951
+Epoch: 4001 cost= 0.145179480
+Epoch: 5001 cost= 0.116034791
+Epoch: 6001 cost= 0.099720992
+Epoch: 7001 cost= 0.090400554
+Epoch: 8001 cost= 0.084968880
+Epoch: 9001 cost= 0.081779532
+Optimization Finished!
+
+
+Epoch: 0001 cost= 131622.609375000
+Epoch: 1001 cost= 3.995717287
+Epoch: 2001 cost= 2.469837904
+Epoch: 3001 cost= 1.617879272
+Epoch: 4001 cost= 1.137174845
+Epoch: 5001 cost= 0.925494969
+Epoch: 6001 cost= 1.124694824
+Epoch: 7001 cost= 0.572534621
+Epoch: 8001 cost= 0.349355131
+Epoch: 9001 cost= 0.329993248
+Optimization Finished!
+
+
+Epoch: 0001 cost= 492.170104980
+Epoch: 1001 cost= 0.024939951
+Epoch: 2001 cost= 0.007423714
+Epoch: 3001 cost= 0.003937319
+Epoch: 4001 cost= 0.002663160
+Epoch: 5001 cost= 0.001945464
+Epoch: 6001 cost= 0.001484715
+Epoch: 7001 cost= 0.001164600
+Epoch: 8001 cost= 0.000932668
+Epoch: 9001 cost= 0.000758393
+Optimization Finished!
+
+
+Epoch: 0001 cost= 177621.546875000
+Epoch: 1001 cost= 0.246493101
+Epoch: 2001 cost= 0.112995051
+Epoch: 3001 cost= 0.069155678
+Epoch: 4001 cost= 0.050453275
+Epoch: 5001 cost= 0.039059244
+Epoch: 6001 cost= 0.030562997
+Epoch: 7001 cost= 0.024104390
+Epoch: 8001 cost= 0.019073151
+Epoch: 9001 cost= 0.015143533
+Optimization Finished!
+
+
+Epoch: 0001 cost= 609.499877930
+Epoch: 1001 cost= 0.048730321
+Epoch: 2001 cost= 0.048492678
+Epoch: 3001 cost= 0.048491377
+Epoch: 4001 cost= 0.048491370
+Epoch: 5001 cost= 0.048491370
+Epoch: 6001 cost= 0.048491366
+Epoch: 7001 cost= 0.048491366
+Epoch: 8001 cost= 0.048491370
+Epoch: 9001 cost= 0.048491370
+Optimization Finished!
+
+
+Epoch: 0001 cost= 51891.429687500
+Epoch: 1001 cost= 0.082097553
+Epoch: 2001 cost= 0.041401975
+Epoch: 3001 cost= 0.023331895
+Epoch: 4001 cost= 0.013511678
+Epoch: 5001 cost= 0.008022437
+Epoch: 6001 cost= 0.004896577
+Epoch: 7001 cost= 0.005279638
+Epoch: 8001 cost= 0.005587140
+Epoch: 9001 cost= 0.005568005
+Optimization Finished!
+
+
+Epoch: 0001 cost= 329.677825928
+Epoch: 1001 cost= 0.025924211
+Epoch: 2001 cost= 0.018307561
+Epoch: 3001 cost= 0.014718259
+Epoch: 4001 cost= 0.012531808
+Epoch: 5001 cost= 0.010902966
+Epoch: 6001 cost= 0.009603491
+Epoch: 7001 cost= 0.008557005
+Epoch: 8001 cost= 0.007706293
+Epoch: 9001 cost= 0.007015234
+Optimization Finished!
+
+
+Epoch: 0001 cost= 297726.812500000
+Epoch: 1001 cost= 0.087644994
+Epoch: 2001 cost= 0.035868950
+Epoch: 3001 cost= 0.029664919
+Epoch: 4001 cost= 0.025862182
+Epoch: 5001 cost= 0.022943653
+Epoch: 6001 cost= 0.020548206
+Epoch: 7001 cost= 0.018485162
+Epoch: 8001 cost= 0.016697930
+Epoch: 9001 cost= 0.015142782
+Optimization Finished!
+
+
+Epoch: 0001 cost= 19233.927734375
+Epoch: 1001 cost= 0.191641599
+Epoch: 2001 cost= 0.090367556
+Epoch: 3001 cost= 0.058635056
+Epoch: 4001 cost= 0.039715867
+Epoch: 5001 cost= 0.027576443
+Epoch: 6001 cost= 0.020234741
+Epoch: 7001 cost= 0.016247258
+Epoch: 8001 cost= 0.013306034
+Epoch: 9001 cost= 0.011039432
+Optimization Finished!
+
+
+Epoch: 0001 cost= 393.664764404
+Epoch: 1001 cost= 0.056961071
+Epoch: 2001 cost= 0.044996284
+Epoch: 3001 cost= 0.041441340
+Epoch: 4001 cost= 0.039076347
+Epoch: 5001 cost= 0.036766939
+Epoch: 6001 cost= 0.034273017
+Epoch: 7001 cost= 0.031336475
+Epoch: 8001 cost= 0.023440424
+Epoch: 9001 cost= 0.012027634
+Optimization Finished!
+
+
+Epoch: 0001 cost= 22605.990234375
+Epoch: 1001 cost= 0.441893578
+Epoch: 2001 cost= 0.182408944
+Epoch: 3001 cost= 0.106626078
+Epoch: 4001 cost= 0.075148523
+Epoch: 5001 cost= 0.055604704
+Epoch: 6001 cost= 0.041402869
+Epoch: 7001 cost= 0.031506665
+Epoch: 8001 cost= 0.024425868
+Epoch: 9001 cost= 0.019690296
+Optimization Finished!
+
+
+Epoch: 0001 cost= 100203.062500000
+Epoch: 1001 cost= 0.079087876
+Epoch: 2001 cost= 0.029364591
+Epoch: 3001 cost= 0.016674679
+Epoch: 4001 cost= 0.010829704
+Epoch: 5001 cost= 0.007823281
+Epoch: 6001 cost= 0.006160428
+Epoch: 7001 cost= 0.005184039
+Epoch: 8001 cost= 0.004570107
+Epoch: 9001 cost= 0.004157898
+Optimization Finished!
+
+
+Epoch: 0001 cost= 357.079498291
+Epoch: 1001 cost= 0.091945343
+Epoch: 2001 cost= 0.087785192
+Epoch: 3001 cost= 0.081557021
+Epoch: 4001 cost= 0.071973927
+Epoch: 5001 cost= 0.060890030
+Epoch: 6001 cost= 0.049800497
+Epoch: 7001 cost= 0.040276393
+Epoch: 8001 cost= 0.033490043
+Epoch: 9001 cost= 0.019025942
+Optimization Finished!
+
+
+Epoch: 0001 cost= 46188.300781250
+Epoch: 1001 cost= 0.805538833
+Epoch: 2001 cost= 0.333371460
+Epoch: 3001 cost= 0.227994397
+Epoch: 4001 cost= 0.162794471
+Epoch: 5001 cost= 0.117443800
+Epoch: 6001 cost= 0.085451141
+Epoch: 7001 cost= 0.062749773
+Epoch: 8001 cost= 0.046956290
+Epoch: 9001 cost= 0.037388474
+Optimization Finished!
+
+
+Epoch: 0001 cost= 19962.166015625
+Epoch: 1001 cost= 0.129580140
+Epoch: 2001 cost= 0.081185468
+Epoch: 3001 cost= 0.058987997
+Epoch: 4001 cost= 0.045667298
+Epoch: 5001 cost= 0.036857430
+Epoch: 6001 cost= 0.030871715
+Epoch: 7001 cost= 0.026656028
+Epoch: 8001 cost= 0.023260245
+Epoch: 9001 cost= 0.020356119
+Optimization Finished!
+
+
+Epoch: 0001 cost= 31332.605468750
+Epoch: 1001 cost= 0.182287768
+Epoch: 2001 cost= 0.057318766
+Epoch: 3001 cost= 0.033026941
+Epoch: 4001 cost= 0.022879226
+Epoch: 5001 cost= 0.018271793
+Epoch: 6001 cost= 0.015465128
+Epoch: 7001 cost= 0.011434371
+Epoch: 8001 cost= 0.009433982
+Epoch: 9001 cost= 0.008319495
+Optimization Finished!
+
+
+Epoch: 0001 cost= 6601.461914062
+Epoch: 1001 cost= 0.249604374
+Epoch: 2001 cost= 0.088253275
+Epoch: 3001 cost= 0.060604833
+Epoch: 4001 cost= 0.042989872
+Epoch: 5001 cost= 0.032244228
+Epoch: 6001 cost= 0.026157066
+Epoch: 7001 cost= 0.022470651
+Epoch: 8001 cost= 0.020324843
+Epoch: 9001 cost= 0.018530130
+Optimization Finished!
+
+
+Epoch: 0001 cost= 10781.810546875
+Epoch: 1001 cost= 0.078486606
+Epoch: 2001 cost= 0.057654984
+Epoch: 3001 cost= 0.044086404
+Epoch: 4001 cost= 0.036621548
+Epoch: 5001 cost= 0.032144897
+Epoch: 6001 cost= 0.028616812
+Epoch: 7001 cost= 0.025448143
+Epoch: 8001 cost= 0.022539642
+Epoch: 9001 cost= 0.019247845
+Optimization Finished!
+
+
+Traceback (most recent call last):
+  File "deep_teste.py", line 203, in <module>
+    learning_rate = 0.1, training_epochs = training_epochs, batch_size = batch_size, display_step = 1000)
+  File "/root/mpi_projects/IC_2017/Experimento_04/regdeep.py", line 120, in MLP
+    _, c, p = sess.run([optimizer, cost, pred], feed_dict={x: batch_x, y: batch_y})
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 767, in run
+    run_metadata_ptr)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 944, in _run
+    % (np_val.shape, subfeed_t.name, str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (0,) for Tensor 'Placeholder_40:0', which has shape '(?, 2)'
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+Epoch: 0001 cost= 137.988525391
+Epoch: 1001 cost= 0.112236656
+Epoch: 2001 cost= 0.093671009
+Epoch: 3001 cost= 0.085595682
+Epoch: 4001 cost= 0.075873427
+Epoch: 5001 cost= 0.071231790
+Epoch: 6001 cost= 0.067988843
+Epoch: 7001 cost= 0.063716620
+Epoch: 8001 cost= 0.061513655
+Epoch: 9001 cost= 0.058651075
+Optimization Finished!
+
+
+Epoch: 0001 cost= 21148.095703125
+Epoch: 1001 cost= 0.214788392
+Epoch: 2001 cost= 0.050622534
+Epoch: 3001 cost= 0.016401090
+Epoch: 4001 cost= 0.007083388
+Epoch: 5001 cost= 0.003921859
+Epoch: 6001 cost= 0.002782582
+Epoch: 7001 cost= 0.002266652
+Epoch: 8001 cost= 0.001970307
+Epoch: 9001 cost= 0.001791076
+Optimization Finished!
+
+
+Epoch: 0001 cost= 1151.230224609
+Epoch: 1001 cost= 0.080468737
+Epoch: 2001 cost= 0.046935543
+Epoch: 3001 cost= 0.032713428
+Epoch: 4001 cost= 0.024722349
+Epoch: 5001 cost= 0.019641392
+Epoch: 6001 cost= 0.016000930
+Epoch: 7001 cost= 0.013229393
+Epoch: 8001 cost= 0.011127466
+Epoch: 9001 cost= 0.009512452
+Optimization Finished!
+
+
+Epoch: 0001 cost= 410729.062500000
+Epoch: 1001 cost= 0.839147687
+Epoch: 2001 cost= 0.171490207
+Epoch: 3001 cost= 0.100529447
+Epoch: 4001 cost= 0.076010175
+Epoch: 5001 cost= 0.062566832
+Epoch: 6001 cost= 0.053844690
+Epoch: 7001 cost= 0.047603648
+Epoch: 8001 cost= 0.042515907
+Epoch: 9001 cost= 0.038370661
+Optimization Finished!
+
+
+Epoch: 0001 cost= 153.556488037
+Epoch: 1001 cost= 0.073141605
+Epoch: 2001 cost= 0.060725540
+Epoch: 3001 cost= 0.054775573
+Epoch: 4001 cost= 0.049540795
+Epoch: 5001 cost= 0.046360638
+Epoch: 6001 cost= 0.043993827
+Epoch: 7001 cost= 0.042158715
+Epoch: 8001 cost= 0.040665872
+Epoch: 9001 cost= 0.036772579
+Optimization Finished!
+
+
+Epoch: 0001 cost= 403.083404541
+Epoch: 1001 cost= 0.046341952
+Epoch: 2001 cost= 0.034396298
+Epoch: 3001 cost= 0.027356550
+Epoch: 4001 cost= 0.022447331
+Epoch: 5001 cost= 0.019498587
+Epoch: 6001 cost= 0.017400227
+Epoch: 7001 cost= 0.015715932
+Epoch: 8001 cost= 0.014362939
+Epoch: 9001 cost= 0.013292287
+Optimization Finished!
+
+
+Epoch: 0001 cost= 1571.940917969
+Epoch: 1001 cost= 0.115663171
+Epoch: 2001 cost= 0.064459190
+Epoch: 3001 cost= 0.049921375
+Epoch: 4001 cost= 0.040614996
+Epoch: 5001 cost= 0.034155957
+Epoch: 6001 cost= 0.028789330
+Epoch: 7001 cost= 0.024461161
+Epoch: 8001 cost= 0.020834012
+Epoch: 9001 cost= 0.017729463
+Optimization Finished!
+
+
+Epoch: 0001 cost= 7065.537109375
+Epoch: 1001 cost= 0.124810219
+Epoch: 2001 cost= 0.084919930
+Epoch: 3001 cost= 0.070074305
+Epoch: 4001 cost= 0.062125124
+Epoch: 5001 cost= 0.056146137
+Epoch: 6001 cost= 0.051539853
+Epoch: 7001 cost= 0.048393540
+Epoch: 8001 cost= 0.045816071
+Epoch: 9001 cost= 0.043632500
+Optimization Finished!
+
+
+Epoch: 0001 cost= 55114.992187500
+Epoch: 1001 cost= 0.715102613
+Epoch: 2001 cost= 0.160059780
+Epoch: 3001 cost= 0.076962501
+Epoch: 4001 cost= 0.051481627
+Epoch: 5001 cost= 0.040426012
+Epoch: 6001 cost= 0.035291061
+Epoch: 7001 cost= 0.032214638
+Epoch: 8001 cost= 0.030175552
+Epoch: 9001 cost= 0.028705701
+Optimization Finished!
+
+
+Epoch: 0001 cost= 7950.689453125
+Epoch: 1001 cost= 0.169037908
+Epoch: 2001 cost= 0.087563336
+Epoch: 3001 cost= 0.061705362
+Epoch: 4001 cost= 0.041560572
+Epoch: 5001 cost= 0.033203401
+Epoch: 6001 cost= 0.029555932
+Epoch: 7001 cost= 0.027360797
+Epoch: 8001 cost= 0.025873160
+Epoch: 9001 cost= 0.024754588
+Optimization Finished!
+
+
+Epoch: 0001 cost= 25339.976562500
+Epoch: 1001 cost= 0.536583722
+Epoch: 2001 cost= 0.346646905
+Epoch: 3001 cost= 0.222996175
+Epoch: 4001 cost= 0.147560418
+Epoch: 5001 cost= 0.123017825
+Epoch: 6001 cost= 0.105379894
+Epoch: 7001 cost= 0.093032703
+Epoch: 8001 cost= 0.082884774
+Epoch: 9001 cost= 0.074366473
+Optimization Finished!
+
+
+Epoch: 0001 cost= 11065.013671875
+Epoch: 1001 cost= 0.575776100
+Epoch: 2001 cost= 0.246401861
+Epoch: 3001 cost= 0.118964195
+Epoch: 4001 cost= 0.070053823
+Epoch: 5001 cost= 0.046825193
+Epoch: 6001 cost= 0.033308890
+Epoch: 7001 cost= 0.024397124
+Epoch: 8001 cost= 0.018142030
+Epoch: 9001 cost= 0.013641872
+Optimization Finished!
+
+
+Epoch: 0001 cost= 435615.625000000
+Epoch: 1001 cost= 1.074846864
+Epoch: 2001 cost= 0.487512231
+Epoch: 3001 cost= 0.212843880
+Epoch: 4001 cost= 0.120771445
+Epoch: 5001 cost= 0.091526628
+Epoch: 6001 cost= 0.078989834
+Epoch: 7001 cost= 0.070767537
+Epoch: 8001 cost= 0.056216568
+Epoch: 9001 cost= 0.047164705
+Optimization Finished!
+
+
+Epoch: 0001 cost= 23967.808593750
+Epoch: 1001 cost= 0.422264725
+Epoch: 2001 cost= 0.252919257
+Epoch: 3001 cost= 0.185876578
+Epoch: 4001 cost= 0.144232631
+Epoch: 5001 cost= 0.115529016
+Epoch: 6001 cost= 0.094917163
+Epoch: 7001 cost= 0.080351800
+Epoch: 8001 cost= 0.069391921
+Epoch: 9001 cost= 0.061075289
+Optimization Finished!
+
+
+Epoch: 0001 cost= 12738.488281250
+Epoch: 1001 cost= 0.166209996
+Epoch: 2001 cost= 0.114891708
+Epoch: 3001 cost= 0.090907812
+Epoch: 4001 cost= 0.076504327
+Epoch: 5001 cost= 0.067017734
+Epoch: 6001 cost= 0.060361765
+Epoch: 7001 cost= 0.055280026
+Epoch: 8001 cost= 0.051310640
+Epoch: 9001 cost= 0.048302684
+Optimization Finished!
+
+
+Epoch: 0001 cost= 19310.148437500
+Epoch: 1001 cost= 0.415847003
+Epoch: 2001 cost= 0.196175903
+Epoch: 3001 cost= 0.111000292
+Epoch: 4001 cost= 0.066651069
+Epoch: 5001 cost= 0.046962306
+Epoch: 6001 cost= 0.036342084
+Epoch: 7001 cost= 0.029743990
+Epoch: 8001 cost= 0.025157135
+Epoch: 9001 cost= 0.021454904
+Optimization Finished!
+
+
+Epoch: 0001 cost= 73235.273437500
+Epoch: 1001 cost= 0.094289280
+Epoch: 2001 cost= 0.055571645
+Epoch: 3001 cost= 0.041852515
+Epoch: 4001 cost= 0.032717600
+Epoch: 5001 cost= 0.026900120
+Epoch: 6001 cost= 0.022707630
+Epoch: 7001 cost= 0.019544654
+Epoch: 8001 cost= 0.017080916
+Epoch: 9001 cost= 0.015017186
+Optimization Finished!
+
+
+Epoch: 0001 cost= 856.017639160
+Epoch: 1001 cost= 0.047724355
+Epoch: 2001 cost= 0.028427346
+Epoch: 3001 cost= 0.021985050
+Epoch: 4001 cost= 0.019662671
+Epoch: 5001 cost= 0.018834550
+Epoch: 6001 cost= 0.018475756
+Epoch: 7001 cost= 0.018235384
+Epoch: 8001 cost= 0.018050255
+Epoch: 9001 cost= 0.017895365
+Optimization Finished!
+
+
+Epoch: 0001 cost= 2108.143798828
+Epoch: 1001 cost= 0.542154133
+Epoch: 2001 cost= 0.120656565
+Epoch: 3001 cost= 0.079571128
+Epoch: 4001 cost= 0.067337930
+Epoch: 5001 cost= 0.060580641
+Epoch: 6001 cost= 0.055193730
+Epoch: 7001 cost= 0.050844841
+Epoch: 8001 cost= 0.047451030
+Epoch: 9001 cost= 0.044585582
+Optimization Finished!
+
+
+Epoch: 0001 cost= 2116.525878906
+Epoch: 1001 cost= 0.042847231
+Epoch: 2001 cost= 0.042611212
+Epoch: 3001 cost= 0.042455189
+Epoch: 4001 cost= 0.042395335
+Epoch: 5001 cost= 0.042379770
+Epoch: 6001 cost= 0.042372145
+Epoch: 7001 cost= 0.042365573
+Epoch: 8001 cost= 0.042360827
+Epoch: 9001 cost= 0.042356998
+Optimization Finished!
+
+
+Epoch: 0001 cost= 85216.468750000
+Epoch: 1001 cost= 0.221255824
+Epoch: 2001 cost= 0.048023678
+Epoch: 3001 cost= 0.017996956
+Epoch: 4001 cost= 0.011235747
+Epoch: 5001 cost= 0.008282003
+Epoch: 6001 cost= 0.006356341
+Epoch: 7001 cost= 0.004927314
+Epoch: 8001 cost= 0.003828406
+Epoch: 9001 cost= 0.002979939
+Optimization Finished!
+
+
+Traceback (most recent call last):
+  File "deep_teste.py", line 203, in <module>
+    learning_rate = 0.1, training_epochs = training_epochs, batch_size = batch_size, display_step = 1000)
+  File "/root/mpi_projects/IC_2017/Experimento_04/regdeep.py", line 120, in MLP
+    _, c, p = sess.run([optimizer, cost, pred], feed_dict={x: batch_x, y: batch_y})
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 767, in run
+    run_metadata_ptr)
+  File "/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 944, in _run
+    % (np_val.shape, subfeed_t.name, str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (0,) for Tensor 'Placeholder_40:0', which has shape '(?, 2)'
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+Epoch: 0001 cost= 26.066465378
+Epoch: 1001 cost= 0.012040462
+Epoch: 2001 cost= 0.005764239
+Epoch: 3001 cost= 0.003461332
+Epoch: 4001 cost= 0.002547123
+Epoch: 5001 cost= 0.002200539
+Epoch: 6001 cost= 0.002031906
+Epoch: 7001 cost= 0.001925814
+Epoch: 8001 cost= 0.001843931
+Epoch: 9001 cost= 0.001774017
+Optimization Finished!
+
+
+Epoch: 0001 cost= 3055.993164062
+Epoch: 1001 cost= 0.246655792
+Epoch: 2001 cost= 0.098304808
+Epoch: 3001 cost= 0.056801349
+Epoch: 4001 cost= 0.035360496
+Epoch: 5001 cost= 0.023439057
+Epoch: 6001 cost= 0.014486656
+Epoch: 7001 cost= 0.009056108
+Epoch: 8001 cost= 0.005763077
+Epoch: 9001 cost= 0.003995941
+Optimization Finished!
+
+
+Epoch: 0001 cost= 337.232116699
+Epoch: 1001 cost= 0.000926791
+Epoch: 2001 cost= 0.000143644
+Epoch: 3001 cost= 0.000065135
+Epoch: 4001 cost= 0.000052885
+Epoch: 5001 cost= 0.000048947
+Epoch: 6001 cost= 0.000046642
+Epoch: 7001 cost= 0.000045030
+Epoch: 8001 cost= 0.000043845
+Epoch: 9001 cost= 0.000042971
+Optimization Finished!
+
+
+Epoch: 0001 cost= 35470.882812500
+Epoch: 1001 cost= 0.014358201
+Epoch: 2001 cost= 0.010350689
+Epoch: 3001 cost= 0.008058012
+Epoch: 4001 cost= 0.006407397
+Epoch: 5001 cost= 0.005101642
+Epoch: 6001 cost= 0.004114601
+Epoch: 7001 cost= 0.003322193
+Epoch: 8001 cost= 0.002739974
+Epoch: 9001 cost= 0.002313407
+Optimization Finished!
+
+
+Epoch: 0001 cost= 2069.422363281
+Epoch: 1001 cost= 0.053892486
+Epoch: 2001 cost= 0.033886086
+Epoch: 3001 cost= 0.021331571
+Epoch: 4001 cost= 0.014313204
+Epoch: 5001 cost= 0.009084882
+Epoch: 6001 cost= 0.006226263
+Epoch: 7001 cost= 0.004434194
+Epoch: 8001 cost= 0.003245312
+Epoch: 9001 cost= 0.002430546
+Optimization Finished!
+
+
+Epoch: 0001 cost= 697.759887695
+Epoch: 1001 cost= 0.002324566
+Epoch: 2001 cost= 0.000842671
+Epoch: 3001 cost= 0.000361421
+Epoch: 4001 cost= 0.000173869
+Epoch: 5001 cost= 0.000093462
+Epoch: 6001 cost= 0.000055252
+Epoch: 7001 cost= 0.000036073
+Epoch: 8001 cost= 0.000025097
+Epoch: 9001 cost= 0.000019242
+Optimization Finished!
+
+
+Epoch: 0001 cost= 1028.596191406
+Epoch: 1001 cost= 0.001425774
+Epoch: 2001 cost= 0.000911135
+Epoch: 3001 cost= 0.000612843
+Epoch: 4001 cost= 0.000421887
+Epoch: 5001 cost= 0.000299185
+Epoch: 6001 cost= 0.000217109
+Epoch: 7001 cost= 0.000164652
+Epoch: 8001 cost= 0.000133532
+Epoch: 9001 cost= 0.000110083
+Optimization Finished!
+
+
+Epoch: 0001 cost= 71.669052124
+Epoch: 1001 cost= 0.003332046
+Epoch: 2001 cost= 0.001945649
+Epoch: 3001 cost= 0.001281362
+Epoch: 4001 cost= 0.000872610
+Epoch: 5001 cost= 0.000649037
+Epoch: 6001 cost= 0.000499448
+Epoch: 7001 cost= 0.000389866
+Epoch: 8001 cost= 0.000307154
+Epoch: 9001 cost= 0.000244401
+Optimization Finished!
+
+
+Epoch: 0001 cost= 32659.685546875
+Epoch: 1001 cost= 0.082786992
+Epoch: 2001 cost= 0.057720993
+Epoch: 3001 cost= 0.045172017
+Epoch: 4001 cost= 0.036276493
+Epoch: 5001 cost= 0.029655857
+Epoch: 6001 cost= 0.024602758
+Epoch: 7001 cost= 0.020642847
+Epoch: 8001 cost= 0.017237753
+Epoch: 9001 cost= 0.013611637
+Optimization Finished!
+
+
+Epoch: 0001 cost= 41065.398437500
+Epoch: 1001 cost= 0.339888722
+Epoch: 2001 cost= 0.127160490
+Epoch: 3001 cost= 0.029682653
+Epoch: 4001 cost= 0.010457170
+Epoch: 5001 cost= 0.017768534
+Epoch: 6001 cost= 0.007034253
+Epoch: 7001 cost= 0.012087118
+Epoch: 8001 cost= 0.000808175
+Epoch: 9001 cost= 0.001052649
+Optimization Finished!
+
+
+Epoch: 0001 cost= 413.538360596
+Epoch: 1001 cost= 0.003449186
+Epoch: 2001 cost= 0.002261824
+Epoch: 3001 cost= 0.001723427
+Epoch: 4001 cost= 0.001434506
+Epoch: 5001 cost= 0.001250303
+Epoch: 6001 cost= 0.001120130
+Epoch: 7001 cost= 0.001031334
+Epoch: 8001 cost= 0.000960130
+Epoch: 9001 cost= 0.000901378
+Optimization Finished!
+
+
+Epoch: 0001 cost= 6896.936035156
+Epoch: 1001 cost= 0.040676940
+Epoch: 2001 cost= 0.030894935
+Epoch: 3001 cost= 0.025859859
+Epoch: 4001 cost= 0.013068527
+Epoch: 5001 cost= 0.011012269
+Epoch: 6001 cost= 0.010496598
+Epoch: 7001 cost= 0.010082046
+Epoch: 8001 cost= 0.009705219
+Epoch: 9001 cost= 0.009354874
+Optimization Finished!
+
+
+Epoch: 0001 cost= 157.484405518
+Epoch: 1001 cost= 0.000153829
+Epoch: 2001 cost= 0.000136193
+Epoch: 3001 cost= 0.000122423
+Epoch: 4001 cost= 0.000111102
+Epoch: 5001 cost= 0.000101553
+Epoch: 6001 cost= 0.000093613
+Epoch: 7001 cost= 0.000086977
+Epoch: 8001 cost= 0.000081181
+Epoch: 9001 cost= 0.000076081
+Optimization Finished!
+
+
+Epoch: 0001 cost= 550.802246094
+Epoch: 1001 cost= 0.000943850
+Epoch: 2001 cost= 0.000832327
+Epoch: 3001 cost= 0.000735517
+Epoch: 4001 cost= 0.000647833
+Epoch: 5001 cost= 0.000568601
+Epoch: 6001 cost= 0.000098295
+Epoch: 7001 cost= 0.000046463
+Epoch: 8001 cost= 0.000028969
+Epoch: 9001 cost= 0.000022820
+Optimization Finished!
+
+
+Epoch: 0001 cost= 8.757854462
+Epoch: 1001 cost= 0.011591423
+Epoch: 2001 cost= 0.010746236
+Epoch: 3001 cost= 0.010614744
+Epoch: 4001 cost= 0.010499686
+Epoch: 5001 cost= 0.010432787
+Epoch: 6001 cost= 0.010403874
+Epoch: 7001 cost= 0.010380875
+Epoch: 8001 cost= 0.010373321
+Epoch: 9001 cost= 0.010366164
+Optimization Finished!
+
+
+Epoch: 0001 cost= 1913.687011719
+Epoch: 1001 cost= 0.017975952
+Epoch: 2001 cost= 0.007677261
+Epoch: 3001 cost= 0.002337122
+Epoch: 4001 cost= 0.002013358
+Epoch: 5001 cost= 0.001964555
+Epoch: 6001 cost= 0.001917621
+Epoch: 7001 cost= 0.001872540
+Epoch: 8001 cost= 0.001828878
+Epoch: 9001 cost= 0.001786816
+Optimization Finished!
+
+
+Epoch: 0001 cost= 13283.278320312
+Epoch: 1001 cost= 0.172509164
+Epoch: 2001 cost= 0.090331681
+Epoch: 3001 cost= 0.074532941
+Epoch: 4001 cost= 0.001859888
+Epoch: 5001 cost= 0.000727774
+Epoch: 6001 cost= 0.000649658
+Epoch: 7001 cost= 0.000623826
+Epoch: 8001 cost= 0.000608499
+Epoch: 9001 cost= 0.000598639
+Optimization Finished!
+
+
+Epoch: 0001 cost= 7.868572235
+Epoch: 1001 cost= 0.020542243
+Epoch: 2001 cost= 0.020279866
+Epoch: 3001 cost= 0.020202499
+Epoch: 4001 cost= 0.020155106
+Epoch: 5001 cost= 0.020120449
+Epoch: 6001 cost= 0.020095341
+Epoch: 7001 cost= 0.020075984
+Epoch: 8001 cost= 0.020060852
+Epoch: 9001 cost= 0.020046391
+Optimization Finished!
+
+
+Epoch: 0001 cost= 0.673633933
+Epoch: 1001 cost= 0.002287255
+Epoch: 2001 cost= 0.001602732
+Epoch: 3001 cost= 0.001235582
+Epoch: 4001 cost= 0.001016092
+Epoch: 5001 cost= 0.000870231
+Epoch: 6001 cost= 0.000764118
+Epoch: 7001 cost= 0.000682148
+Epoch: 8001 cost= 0.000616248
+Epoch: 9001 cost= 0.000561797
+Optimization Finished!
+
+
+Epoch: 0001 cost= 2240.002441406
+Epoch: 1001 cost= 0.030474331
+Epoch: 2001 cost= 0.016421150
+Epoch: 3001 cost= 0.010326983
+Epoch: 4001 cost= 0.006895273
+Epoch: 5001 cost= 0.005477146
+Epoch: 6001 cost= 0.003889707
+Epoch: 7001 cost= 0.002178790
+Epoch: 8001 cost= 0.001607527
+Epoch: 9001 cost= 0.001263490
+Optimization Finished!
+
+
+Epoch: 0001 cost= 6291.616210938
+Epoch: 1001 cost= 0.116226591
+Epoch: 2001 cost= 0.079816796
+Epoch: 3001 cost= 0.054082826
+Epoch: 4001 cost= 0.036887821
+Epoch: 5001 cost= 0.028553039
+Epoch: 6001 cost= 0.023122633
+Epoch: 7001 cost= 0.019090198
+Epoch: 8001 cost= 0.016024776
+Epoch: 9001 cost= 0.013695486
+Optimization Finished!
+
+
+Traceback (most recent call last):
+  File "deep_teste.py", line 220, in <module>
+    info.write(str(arq +1) + ',' + str(nsamples) + ',' + str(i + 1) + ',' + '{0:f}'.format(erros[len(erros)-1]) + ',' + str(sum(erro_percent)/len(erro_percent)) + ',' + str(end-start) + '\n')
+ZeroDivisionError: division by zero
